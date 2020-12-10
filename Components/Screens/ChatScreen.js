@@ -2,12 +2,12 @@ import React from 'react';
 import {TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Container, Text} from 'native-base';
 import { StatusBar } from 'expo-status-bar';
-import Constants from 'expo-constants';
 
 export default function ChatScreen({ navigation }) {
     return (
             <View style={styles.container}>
-            <View style={styles.body}>
+            <StatusBar backgroundColor="#000000" style='light' />
+                <View style={styles.body}>
                 <TouchableOpacity onPress={()=>navigation.navigate('Username')}>
                 <Text style={styles.bodytext}>
                     All Chats here-- (click for chat)!

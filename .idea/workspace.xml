@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/ChatHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Screens/ProfileScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Screens/Settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/ProfileScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/Settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -91,6 +88,26 @@
       <screen x="0" y="22" width="1366" height="746" />
     </state>
     <state x="136" y="22" key="CommitChangelistDialog2/0.22.1366.746@0.22.1366.746" timestamp="1607530523910" />
+    <state width="1005" height="176" key="GridCell.Tab.0.bottom" timestamp="1607620162531">
+      <screen x="0" y="22" width="1366" height="746" />
+    </state>
+    <state width="1005" height="176" key="GridCell.Tab.0.bottom/0.22.1366.746@0.22.1366.746" timestamp="1607620162531" />
+    <state width="1005" height="176" key="GridCell.Tab.0.center" timestamp="1607620162529">
+      <screen x="0" y="22" width="1366" height="746" />
+    </state>
+    <state width="1005" height="176" key="GridCell.Tab.0.center/0.22.1366.746@0.22.1366.746" timestamp="1607620162529" />
+    <state width="1005" height="176" key="GridCell.Tab.0.left" timestamp="1607620162525">
+      <screen x="0" y="22" width="1366" height="746" />
+    </state>
+    <state width="1005" height="176" key="GridCell.Tab.0.left/0.22.1366.746@0.22.1366.746" timestamp="1607620162524" />
+    <state width="1005" height="176" key="GridCell.Tab.0.right" timestamp="1607620162530">
+      <screen x="0" y="22" width="1366" height="746" />
+    </state>
+    <state width="1005" height="176" key="GridCell.Tab.0.right/0.22.1366.746@0.22.1366.746" timestamp="1607620162530" />
+    <state x="290" y="121" key="RollbackChangesDialog" timestamp="1607619845693">
+      <screen x="0" y="22" width="1366" height="746" />
+    </state>
+    <state x="290" y="121" key="RollbackChangesDialog/0.22.1366.746@0.22.1366.746" timestamp="1607619845693" />
     <state x="134" y="120" key="Vcs.Push.Dialog.v2" timestamp="1607530528933">
       <screen x="0" y="22" width="1366" height="746" />
     </state>

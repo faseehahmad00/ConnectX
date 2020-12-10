@@ -1,6 +1,7 @@
 import React from 'react';
 import {TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Text} from 'native-base';
+import Constants from "expo-constants";
 
 export default function ChatScreen({navigation}) {
     return (
@@ -47,14 +48,16 @@ const styles = StyleSheet.create({
         color:"#ffffff",
     },
     titlebox:{
+        marginTop:Constants.statusBarHeight,
         flexDirection:"row",
-        flex:0.05,
+        flex:0.08,
+        alignItems: "center",
         justifyContent:"flex-start",
         backgroundColor:"#000000",
     },
     body:{
         flexDirection: "row",
-        flex:0.95,
+        flex:0.92,
         backgroundColor:"#fff",
         alignItems: "center",
     },

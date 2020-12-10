@@ -1,11 +1,13 @@
 import React from 'react';
 import {TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Container, Text} from 'native-base';
+import {StatusBar} from "expo-status-bar";
+import Constants from 'expo-constants';
 
 export default function ChatScreen({navigation}) {
     return (
         <View style={styles.container}>
-
+            <StatusBar style='light'/>
             <View style={styles.titlebox}>
                 <TouchableOpacity style={styles.btn}>
                     <Button icon small dark rounded onPress={()=>navigation.openDrawer()}>
@@ -44,14 +46,17 @@ const styles = StyleSheet.create({
         color:"#ffffff",
     },
     titlebox:{
+        marginTop:Constants.statusBarHeight,
         flexDirection:"row",
-        flex:0.05,
+        flex:0.08,
         justifyContent:"flex-start",
+        alignItems: "center",
         backgroundColor:"#000000",
+
     },
     body:{
         flexDirection: "row",
-        flex:0.95,
+        flex:0.92,
         backgroundColor:"#fff",
         alignItems: "center",
     },
