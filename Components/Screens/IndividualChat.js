@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     body:{
         flexDirection: "row",
         flex:0.95,
-        backgroundColor:"#fff",
+        backgroundColor:"#666666",
         alignItems: "center",
     },
     bodytext:{
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         fontWeight:"bold",
         marginLeft:10,
         flex:7,
-        color:"#666666",
+        color:"#DDDDDD",
         textAlign: "center",
     },
 

@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     },
     body:{
         flex:0.95,
-        backgroundColor:"#fff",
+        backgroundColor:"#666666",
         alignItems: "center",
     },
     bodytext:{
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         fontSize:22,
         fontWeight:"bold",
         marginLeft:10,
-        color:"#666666",
+        color:"#DDDDDD",
     },
 
 });

@@ -4,18 +4,10 @@ import { Icon,Button,Container, Text} from 'native-base';
 import {StatusBar} from "expo-status-bar";
 import Constants from 'expo-constants';
 
-export default function ChatScreen({navigation}) {
+export default function NewMessgae({navigation}) {
     return (
         <View style={styles.container}>
             <StatusBar style='light'/>
-            <View style={styles.titlebox}>
-                <TouchableOpacity style={styles.btn}>
-                    <Button icon small dark rounded onPress={()=>navigation.openDrawer()}>
-                        <Icon name='menu' />
-                    </Button>
-                </TouchableOpacity>
-                <Text style={styles.title}>Profile</Text>
-            </View>
             <View style={styles.body}>
                 <Text style={styles.bodytext}>
                     User Profile appears here !
@@ -37,27 +29,10 @@ const styles = StyleSheet.create({
         margin:2,
         backgroundColor:"#000000",
     },
-    title:{
-        paddingLeft:5,
-        fontSize:20,
-        fontWeight: "bold",
-        marginLeft:10,
-        flex:7,
-        color:"#ffffff",
-    },
-    titlebox:{
-        marginTop:Constants.statusBarHeight,
-        flexDirection:"row",
-        flex:0.08,
-        justifyContent:"flex-start",
-        alignItems: "center",
-        backgroundColor:"#000000",
-
-    },
     body:{
         flexDirection: "row",
-        flex:0.92,
-        backgroundColor:"#fff",
+        flex:1,
+        backgroundColor:"#666666",
         alignItems: "center",
     },
     bodytext:{
@@ -65,7 +40,7 @@ const styles = StyleSheet.create({
         fontWeight:"bold",
         marginLeft:10,
         flex:7,
-        color:"#666666",
+        color:"#DDDDDD",
         textAlign: "center",
     },
 
