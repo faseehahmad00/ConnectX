@@ -2,17 +2,61 @@ import React from 'react';
 import {TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Container, Text} from 'native-base';
 import { StatusBar } from 'expo-status-bar';
+import { ChatItem } from 'react-chat-elements/native';
 
 export default function ChatScreen({ navigation }) {
     return (
             <View style={styles.container}>
             <StatusBar backgroundColor="#000000" style='light' />
-                <View style={styles.body}>
-                <TouchableOpacity onPress={()=>navigation.navigate('Username')}>
-                <Text style={styles.bodytext}>
-                    All Chats here-- (click for chat)!
-                </Text>
-                </TouchableOpacity>
+            <View style={styles.body}>
+                <ChatItem
+                    avatar={'../assets/favicon.png'}
+                    alt={'Reactjs'}
+                    title={'USER TEST'}
+                    subtitle={'What are you doing?'}
+                    date={new Date()}
+                    unread={1}
+                    statusColor="red"/>
+                <ChatItem
+                    avatar={'./assets/favicon.png'}
+                    alt={'Reactjs'}
+                    title={'USER 1'}
+                    subtitle={'What are you doing?'}
+                    date={new Date()}
+                    unread={2}
+                    statusColor="lightgreen"/>
+                <ChatItem
+                    avatar={'./assets/favicon.png'}
+                    alt={'Reactjs'}
+                    title={'USER 1'}
+                    subtitle={'What are you doing?'}
+                    date={new Date()}
+                    unread={3}
+                    statusColor="red"/>
+                <ChatItem
+                    avatar={'./assets/favicon.png'}
+                    alt={'Reactjs'}
+                    title={'USER 1'}
+                    subtitle={'What are you doing?'}
+                    date={new Date()}
+                    unread={2}
+                    statusColor="lightgreen"/>
+                <ChatItem
+                    avatar={'./assets/favicon.png'}
+                    alt={'Reactjs'}
+                    title={'USER 1'}
+                    subtitle={'What are you doing?'}
+                    date={new Date()}
+                    unread={7}
+                    statusColor="red"/>
+                <ChatItem
+                    avatar={'./assets/favicon.png'}
+                    alt={'Reactjs'}
+                    title={'USER 1'}
+                    subtitle={'What are you doing?'}
+                    date={new Date()}
+                    unread={4}
+                    statusColor="red"/>
            </View>
 
         </View>
@@ -24,29 +68,10 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#000000',
     },
-    btn:{
-        flex:1,
-        margin:2,
-        backgroundColor:"#000000",
-    },
-    title:{
-        fontSize:22,
-        fontWeight:"bold",
-        marginLeft:10,
-        flex:7,
-        color:"#ffffff",
-    },
     body:{
-        flex:0.95,
+        flex:1,
         backgroundColor:"#666666",
-        alignItems: "center",
     },
-    bodytext:{
-        paddingTop:250,
-        fontSize:22,
-        fontWeight:"bold",
-        marginLeft:10,
-        color:"#DDDDDD",
-    },
+
 
 });

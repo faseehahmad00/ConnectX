@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/ChatData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/IndividualChatData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/NewMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -52,7 +54,8 @@
       <workItem from="1607793926921" duration="927000" />
       <workItem from="1607794994186" duration="103000" />
       <workItem from="1607795332919" duration="290000" />
-      <workItem from="1607795646742" duration="1326000" />
+      <workItem from="1607795646742" duration="2180000" />
+      <workItem from="1607887211666" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -89,57 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1607622048026</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed UI.">
+      <created>1607796985968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607796985968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="fixed UI." />
     <option name="LAST_COMMIT_MESSAGE" value="fixed UI." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="136" y="22" key="CommitChangelistDialog2" timestamp="1607622047746">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state x="136" y="22" key="CommitChangelistDialog2/0.22.1366.746@0.22.1366.746" timestamp="1607622047746" />
-    <state width="1005" height="176" key="GridCell.Tab.0.bottom" timestamp="1607622430056">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state width="1005" height="176" key="GridCell.Tab.0.bottom/0.22.1366.746@0.22.1366.746" timestamp="1607622430056" />
-    <state width="1005" height="176" key="GridCell.Tab.0.center" timestamp="1607622430056">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state width="1005" height="176" key="GridCell.Tab.0.center/0.22.1366.746@0.22.1366.746" timestamp="1607622430056" />
-    <state width="1005" height="176" key="GridCell.Tab.0.left" timestamp="1607622430056">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state width="1005" height="176" key="GridCell.Tab.0.left/0.22.1366.746@0.22.1366.746" timestamp="1607622430056" />
-    <state width="1005" height="176" key="GridCell.Tab.0.right" timestamp="1607622430056">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state width="1005" height="176" key="GridCell.Tab.0.right/0.22.1366.746@0.22.1366.746" timestamp="1607622430056" />
-    <state x="290" y="121" key="RollbackChangesDialog" timestamp="1607619845693">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state x="290" y="121" key="RollbackChangesDialog/0.22.1366.746@0.22.1366.746" timestamp="1607619845693" />
-    <state x="134" y="120" key="Vcs.Push.Dialog.v2" timestamp="1607622060153">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state x="134" y="120" key="Vcs.Push.Dialog.v2/0.22.1366.746@0.22.1366.746" timestamp="1607622060153" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1607622296390">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state width="600" height="424" key="javadoc.popup/0.22.1366.746@0.22.1366.746" timestamp="1607622296390" />
-    <state x="191" y="175" key="run.anything.popup" timestamp="1607540045268">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state x="191" y="175" key="run.anything.popup/0.22.1366.746@0.22.1366.746" timestamp="1607540045268" />
-    <state x="194" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607539258815">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state x="194" y="89" width="672" height="678" key="search.everywhere.popup/0.22.1366.746@0.22.1366.746" timestamp="1607539258815" />
   </component>
 </project>
