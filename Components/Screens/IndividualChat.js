@@ -2,6 +2,8 @@ import React from 'react';
 import {TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Text} from 'native-base';
 
+
+
 export default function ChatScreen() {
     return (
         <View style={styles.container}>
