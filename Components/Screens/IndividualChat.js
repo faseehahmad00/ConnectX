@@ -4,6 +4,8 @@ import { Icon,Button,Text} from 'native-base';
 import { MessageList } from 'react-chat-elements/native';
 import IndividualChatData from '../../Data/IndividualChatData';
 
+
+
 export default function ChatScreen() {
     let [data,setdata] =useState(IndividualChatData);
     return (
