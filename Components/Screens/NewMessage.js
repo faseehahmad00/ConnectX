@@ -2,7 +2,7 @@ import React from 'react';
 import {TouchableOpacity, StyleSheet, View, FlatList} from "react-native";
 import { Icon,Button,Container, Text} from 'native-base';
 import {StatusBar} from "expo-status-bar";
-import {ChatItem} from "react-chat-elements/native";
+import ChatItem from "../ChatItem";
 import ContactData from "../../Data/ContactData";
 
 export default function NewMessgae(props) {
@@ -16,7 +16,7 @@ export default function NewMessgae(props) {
                     renderItem={({ item }) => (
                         <TouchableOpacity style={styles.chatitem} >
                             <ChatItem
-                                avatar={require('../../assets/favicon.png')}
+                                avatar={require('../../assets/avtr.png')}
                                 alt={item.alt}
                                 title={item.title}
                                 subtitle={item.subtitle}
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     body:{
         flexDirection: "row",
         flex:1,
-        backgroundColor:"#666666",
+        backgroundColor:"#000",
         alignItems: "center",
     },
     chatitem:{

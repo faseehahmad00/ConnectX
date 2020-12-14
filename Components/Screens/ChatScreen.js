@@ -1,8 +1,7 @@
 import React from 'react';
 import {Image, FlatList, TouchableOpacity, StyleSheet, View} from "react-native";
-import {Icon, Button, Container, Text} from 'native-base';
 import {StatusBar} from 'expo-status-bar';
-import {ChatItem} from 'react-chat-elements/native';
+import ChatItem from "../ChatItem";
 import ChatData from "../../Data/ChatData";
 import IndividualChatData from "../../Data/IndividualChatData";
 
@@ -18,7 +17,7 @@ export default function ChatScreen({navigation}) {
                         <TouchableOpacity style={styles.chatitem}
                                           onPress={() => navigation.navigate('Username', {params: IndividualChatData})}>
                             <ChatItem
-                                avatar={require('../../assets/favicon.png')}
+                                avatar={require('../../assets/avtr2.png')}
                                 alt={item.alt}
                                 title={item.title}
                                 subtitle={item.subtitle}
@@ -39,10 +38,11 @@ const styles = StyleSheet.create({
     },
     body: {
         flex: 1,
-        backgroundColor: "#666666",
+        backgroundColor: "black",
     },
     chatitem: {
-        marginVertical: 1,
+        marginVertical: 2,
+        marginHorizontal:2,
     },
     img: {
         flex: 1,

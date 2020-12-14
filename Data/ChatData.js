@@ -8,7 +8,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:3,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
     {
         avatar: '../assets/favicon.png',
@@ -17,7 +17,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:0,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
 
     {
@@ -27,7 +27,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:5,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
 
     {
@@ -37,7 +37,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:6,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
     {
         avatar: '../assets/favicon.png',
@@ -46,7 +46,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:1,
-        statusColor:"green",
+        statusColor:"red",
     },
     {
         avatar: '../assets/favicon.png',
@@ -55,7 +55,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:0,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
     {
         avatar: '../assets/favicon.png',
@@ -64,7 +64,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:0,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
 
     {
@@ -74,7 +74,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:5,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
 
     {
@@ -84,7 +84,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:7,
-        statusColor:"green",
+        statusColor:"red",
     },
     {
         avatar: '../assets/favicon.png',
@@ -93,7 +93,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:2,
-        statusColor:"green",
+        statusColor:"red",
     },
     {
         avatar: '../assets/favicon.png',
@@ -102,7 +102,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:0,
-        statusColor:"green",
+        statusColor:"red",
     },
     {
         avatar: '../assets/favicon.png',
@@ -111,7 +111,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:1,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
     {
         avatar: '../assets/favicon.png',
@@ -120,7 +120,7 @@ export default [
         subtitle:'What are you doing?',
         date:new Date(),
         unread:0,
-        statusColor:"green",
+        statusColor:"#A4DE05",
     },
 
 ]
