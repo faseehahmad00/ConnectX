@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList,TouchableOpacity,StyleSheet,View} from "react-native";
+import {Image,FlatList,TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Container, Text} from 'native-base';
 import { StatusBar } from 'expo-status-bar';
 import { ChatItem } from 'react-chat-elements/native';
@@ -16,7 +16,7 @@ export default function ChatScreen({ navigation }) {
                     renderItem={({ item }) => (
                         <TouchableOpacity style={styles.chatitem} onPress={()=>navigation.navigate('Username')}>
                         <ChatItem
-                            avatar={item.avatar}
+                            avatar={require('../../assets/favicon.png')}
                             alt={item.alt}
                             title={item.title}
                             subtitle={item.subtitle}
@@ -40,6 +40,9 @@ const styles = StyleSheet.create({
     },
     chatitem:{
         marginVertical:1,
+    },
+    img:{
+        flex:1,
     }
 
 

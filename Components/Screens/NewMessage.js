@@ -17,7 +17,7 @@ export default function NewMessgae({navigation}) {
                     renderItem={({ item }) => (
                         <TouchableOpacity style={styles.chatitem} >
                             <ChatItem
-                                avatar={item.avatar}
+                                avatar={require('../../assets/favicon.png')}
                                 alt={item.alt}
                                 title={item.title}
                                 subtitle={item.subtitle}
