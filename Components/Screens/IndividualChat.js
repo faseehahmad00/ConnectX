@@ -2,28 +2,26 @@ import React,{useState} from 'react';
 import {TextInput,TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Text} from 'native-base';
 import { MessageList } from 'react-chat-elements/native';
-import IndividualChatData from '../../Data/IndividualChatData';
 
-
-
-export default function ChatScreen() {
-    let [data,setdata] =useState(IndividualChatData);
+export default function ChatScreen({route}) {
     return (
         <View style={styles.container}>
             <View style={styles.body}>
-                <MessageList dataSource={IndividualChatData}/>
+                <MessageList dataSource={route.params.params}/>
             </View>
             <View style={styles.inputview}>
                 <TextInput style={styles.input}
                 defaultValue='Enter Meaage Here...'
                 />
                 <Button iconLeft dark>
-                    <Icon name='paper-plane' onPress={()=>setdata(IndividualChatData.push(   {
-                        position: 'left',
-                        type: 'text',
-                        text: 'new message',
-                        date: new Date(),
-                    }))}/>
+                    <Icon name='paper-plane'
+                    //       onPress={()=>setdata(data.push({
+                    //     position: 'left',
+                    //     type: 'text',
+                    //     text: 'new message',
+                    //     date: new Date(),
+                    // }))}
+                    />
                 </Button>
             </View>
 
@@ -52,7 +50,5 @@ const styles = StyleSheet.create({
         backgroundColor:"#000000",
         color:"#fff",
     },
-
-
-
+    
 });

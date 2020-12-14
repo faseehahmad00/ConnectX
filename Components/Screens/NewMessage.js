@@ -2,17 +2,16 @@ import React from 'react';
 import {TouchableOpacity, StyleSheet, View, FlatList} from "react-native";
 import { Icon,Button,Container, Text} from 'native-base';
 import {StatusBar} from "expo-status-bar";
-import Constants from 'expo-constants';
-import ChatData from "../../Data/ChatData";
 import {ChatItem} from "react-chat-elements/native";
 import ContactData from "../../Data/ContactData";
-export default function NewMessgae({navigation}) {
+
+export default function NewMessgae(props) {
     return (
         <View style={styles.container}>
             <StatusBar style='light'/>
             <View style={styles.body}>
                 <FlatList
-                    data={ContactData}
+                    data={props.route.params.params}
                     keyExtractor={item => item.title}
                     renderItem={({ item }) => (
                         <TouchableOpacity style={styles.chatitem} >

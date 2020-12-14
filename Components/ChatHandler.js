@@ -6,6 +6,7 @@ import { Button, Icon } from 'native-base';
 import ChatScreen from "./Screens/ChatScreen";
 import IndividualChat from "./Screens/IndividualChat";
 import NewMessage from './Screens/NewMessage'
+import ContactData from "../Data/ContactData";
 
 export default function ChatHandler({ navigation }) {
     const Stack = createStackNavigator();
@@ -24,7 +25,7 @@ export default function ChatHandler({ navigation }) {
                     ),
                     headerRight: () => (
 
-                            <Button style={styles.newmessage} onPress={() => navigation.navigate('NewMessage')} iconright small dark>
+                            <Button style={styles.newmessage} onPress={() => navigation.navigate('NewMessage',{params:ContactData})} iconright small dark>
                                 <Icon name='chatbubbles' />
                             </Button>
 

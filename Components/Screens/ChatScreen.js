@@ -4,6 +4,7 @@ import { Icon,Button,Container, Text} from 'native-base';
 import { StatusBar } from 'expo-status-bar';
 import { ChatItem } from 'react-chat-elements/native';
 import ChatData from "../../Data/ChatData";
+import IndividualChatData from "../../Data/IndividualChatData";
 
 export default function ChatScreen({ navigation }) {
     return (
@@ -14,7 +15,7 @@ export default function ChatScreen({ navigation }) {
                     data={ChatData}
                     keyExtractor={item => item.title}
                     renderItem={({ item }) => (
-                        <TouchableOpacity style={styles.chatitem} onPress={()=>navigation.navigate('Username')}>
+                        <TouchableOpacity style={styles.chatitem} onPress={()=>navigation.navigate('Username',{params:IndividualChatData})}>
                         <ChatItem
                             avatar={require('../../assets/favicon.png')}
                             alt={item.alt}
