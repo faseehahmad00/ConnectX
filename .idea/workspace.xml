@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/NewMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/abc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IndividualChatData.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IndividualChatData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,8 @@
       <workItem from="1607887211666" duration="4373000" />
       <workItem from="1607936275855" duration="3993000" />
       <workItem from="1607943233660" duration="2519000" />
-      <workItem from="1607950789730" duration="2789000" />
+      <workItem from="1607950789730" duration="2880000" />
+      <workItem from="1607955475055" duration="1893000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -120,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607943528942</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added fake Chat UI">
+      <created>1607954462194</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607954462194</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added fake Chat UI">
+      <created>1607954502032</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607954502032</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
