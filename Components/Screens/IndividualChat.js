@@ -50,5 +50,5 @@ const styles = StyleSheet.create({
         backgroundColor:"#000000",
         color:"#fff",
     },
-    
+
 });
