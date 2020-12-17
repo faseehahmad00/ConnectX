@@ -23,13 +23,6 @@ export default function ChatHandler({ navigation }) {
                         </Button>
 
                     ),
-                    headerRight: () => (
-
-                            <Button style={styles.newmessage} onPress={() => navigation.navigate('NewMessage',{params:ContactData})} iconright small dark>
-                                <Icon name='chatbubbles' />
-                            </Button>
-
-                    ),
                 }} />
                 <Stack.Screen name="Username" component={IndividualChat}  options={{
                     headerStyle: {

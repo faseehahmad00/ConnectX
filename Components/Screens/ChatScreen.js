@@ -4,6 +4,8 @@ import {StatusBar} from 'expo-status-bar';
 import ChatItem from "../ChatItem";
 import ChatData from "../../Data/ChatData";
 import IndividualChatData from "../../Data/IndividualChatData";
+import {Icon, Fab } from 'native-base';
+import ContactData from "../../Data/ContactData";
 
 export default function ChatScreen({navigation}) {
     return (
@@ -27,6 +29,14 @@ export default function ChatScreen({navigation}) {
                         </TouchableOpacity>
                     )}/>
             </View>
+            <Fab
+                active={false}
+                containerStyle={{}}
+                style={{ backgroundColor: '#000' }}
+                position="bottomRight"
+                onPress={() => navigation.navigate('NewMessage',{params:ContactData})} >
+                <Icon name="chatbubbles" />
+            </Fab>
         </View>
     );
 }

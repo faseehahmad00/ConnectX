@@ -12,6 +12,7 @@ export default function NewMessgae(props) {
             <View style={styles.body}>
                 <FlatList
                     data={props.route.params.params}
+                    data = {ContactData}
                     keyExtractor={item => item.title}
                     renderItem={({ item }) => (
                         <TouchableOpacity style={styles.chatitem} >

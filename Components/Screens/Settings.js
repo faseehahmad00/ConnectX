@@ -3,7 +3,7 @@ import {TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Text} from 'native-base';
 import Constants from "expo-constants";
 
-export default function ChatScreen({navigation}) {
+export default function Settings({navigation}) {
     return (
         <View style={styles.container}>
             <View style={styles.titlebox}>
@@ -15,10 +15,7 @@ export default function ChatScreen({navigation}) {
                 <Text style={styles.title}>Settings</Text>
             </View>
             <View style={styles.body}>
-                <Text style={styles.bodytext}>
-                    This is Settings TAB !
-                </Text>
-
+                <View style={styles.profilecard}/>
             </View>
 
         </View>
@@ -29,10 +26,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#000000',
-    },
-    stbar:{
-        flex:0.05,
-        backgroundColor:"#000000",
     },
     btn:{
         flex:1,
@@ -56,18 +49,15 @@ const styles = StyleSheet.create({
         backgroundColor:"#000000",
     },
     body:{
-        flexDirection: "row",
         flex:0.92,
         backgroundColor:"#666666",
-        alignItems: "center",
     },
-    bodytext:{
-        fontSize:22,
-        fontWeight:"bold",
-        marginLeft:10,
-        flex:7,
-        color:"#DDDDDD",
-        textAlign: "center",
+    profilecard:{
+        flex:0.2,
+        margin:3,
+      backgroundColor:"#000",
+
     },
+
 
 });

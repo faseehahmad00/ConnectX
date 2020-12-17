@@ -6,6 +6,7 @@ import {
     Text,
     Image, StyleSheet,
 } from 'react-native';
+import { Container, Header,Button, Icon, Fab } from 'native-base';
 
 export default function ChatItem (props) {
         return (

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="" />
+    <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/ChatItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/NewMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +61,7 @@
       <workItem from="1607955475055" duration="2122000" />
       <workItem from="1607973461895" duration="465000" />
       <workItem from="1607976148775" duration="2448000" />
+      <workItem from="1608235713537" duration="3135000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -145,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607978562075</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=".">
+      <created>1608235737203</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608235737203</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +174,7 @@
     <MESSAGE value="added fake Chat UI" />
     <MESSAGE value="added gifted-chat UI." />
     <MESSAGE value="removed react-chat-elements.(used custom components)" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed react-chat-elements.(used custom components)" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
