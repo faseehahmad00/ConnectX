@@ -1,5 +1,5 @@
 import React from 'react';
-import {TouchableOpacity,StyleSheet,View} from "react-native";
+import {Image,TouchableOpacity,StyleSheet,View} from "react-native";
 import { Icon,Button,Text} from 'native-base';
 import Constants from "expo-constants";
 
@@ -15,7 +15,13 @@ export default function Settings({navigation}) {
                 <Text style={styles.title}>Settings</Text>
             </View>
             <View style={styles.body}>
-                <View style={styles.profilecard}/>
+                <TouchableOpacity style={styles.profilecard}>
+                    <Image style={styles.img} source={require('../../assets/avtr.png')}/>
+                    <View style={{flex:0.7,justifyContent:'center',alignItems: 'center',}}>
+                    <Text style={styles.profiletext}>Profile</Text>
+                        </View>
+                </TouchableOpacity>
+
             </View>
 
         </View>
@@ -53,11 +59,27 @@ const styles = StyleSheet.create({
         backgroundColor:"#666666",
     },
     profilecard:{
-        flex:0.2,
-        margin:3,
-      backgroundColor:"#000",
-
+        flexDirection: "row",
+        flex:0.15,
+        margin:5,
+        backgroundColor:"#888",
+        borderRadius: 30,
     },
+    img:{
+        flex:0.3,
+        backgroundColor:"#000",
+        height:90,
+        width:90,
+        borderRadius:100,
+        marginHorizontal:10,
+        marginVertical:5,
+    },
+    profiletext:{
+        alignSelf: 'center',
+        fontSize: 35,
+        fontWeight: 'bold',
+    }
+
 
 
 });

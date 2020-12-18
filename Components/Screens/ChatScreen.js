@@ -4,7 +4,7 @@ import {StatusBar} from 'expo-status-bar';
 import ChatItem from "../ChatItem";
 import ChatData from "../../Data/ChatData";
 import IndividualChatData from "../../Data/IndividualChatData";
-import {Icon, Fab } from 'native-base';
+import {Icon, Fab} from 'native-base';
 import ContactData from "../../Data/ContactData";
 
 export default function ChatScreen({navigation}) {
@@ -32,10 +32,10 @@ export default function ChatScreen({navigation}) {
             <Fab
                 active={false}
                 containerStyle={{}}
-                style={{ backgroundColor: '#000' }}
+                style={{backgroundColor: '#000'}}
                 position="bottomRight"
-                onPress={() => navigation.navigate('NewMessage',{params:ContactData})} >
-                <Icon name="chatbubbles" />
+                onPress={() => navigation.navigate('NewMessage', {params: ContactData})}>
+                <Icon name="chatbubbles"/>
             </Fab>
         </View>
     );
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     },
     chatitem: {
         marginVertical: 2,
-        marginHorizontal:2,
+        marginHorizontal: 2,
     },
     img: {
         flex: 1,
