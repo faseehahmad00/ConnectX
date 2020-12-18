@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Components/LoginManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Screens/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/login.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/ChatItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/NewMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,9 @@
       <workItem from="1607955475055" duration="2122000" />
       <workItem from="1607973461895" duration="465000" />
       <workItem from="1607976148775" duration="2448000" />
-      <workItem from="1608235713537" duration="3135000" />
+      <workItem from="1608235713537" duration="3177000" />
+      <workItem from="1608298802234" duration="610000" />
+      <workItem from="1608303132479" duration="3830000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608235737203</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added floating button to chatscreen">
+      <created>1608238877376</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608238877376</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +183,7 @@
     <MESSAGE value="added gifted-chat UI." />
     <MESSAGE value="removed react-chat-elements.(used custom components)" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="added floating button to chatscreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added floating button to chatscreen" />
   </component>
 </project>

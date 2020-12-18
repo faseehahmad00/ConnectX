@@ -1,12 +1,26 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import {StyleSheet, View} from "react-native";
 import {GiftedChat} from 'react-native-gifted-chat'
+import IndividualChatData from "../../Data/IndividualChatData";
 
-export default function ChatScreen({route}) {
+export default function ChatScreen() {
+    // componentDidMount(){
+    //     BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
+    // }
+    //
+    // componentWillUnmount(){
+    //     BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton);
+    // }
+    //
+    // handleBackButton(){
+    //     ToastAndroid.show('Back button is pressed', ToastAndroid.SHORT);
+    //     return true;
+    // }
+
     const [messages, setMessages] = useState([]);
 
     useEffect(() => {
-        setMessages(route.params.params)
+        setMessages(IndividualChatData)
     }, [])
 
     const onSend = useCallback((messages = []) => {
