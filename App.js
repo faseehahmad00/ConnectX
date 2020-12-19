@@ -4,7 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 
 import Login from './Components/Screens/Login';
-import LoginManager from './Components/LoginManager';
+import MainApp from './Components/MainApp'
+import Profile from "./Components/Screens/Profile";
 
 export default function App() {
     const Stack = createStackNavigator();
@@ -13,7 +14,7 @@ export default function App() {
         <NavigationContainer>
             <Stack.Navigator headerMode='none'>
                 <Stack.Screen name="Login" component={Login} />
-                <Stack.Screen name="LoginManager" component={LoginManager} />
+                <Stack.Screen name="LoginManager" component={MainApp} />
             </Stack.Navigator>
         </NavigationContainer>
     );

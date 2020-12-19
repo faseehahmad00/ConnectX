@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Components/Screens/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Screens/License.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Screens/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/SettingManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/license.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/profileavatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/settings.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/LoginManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/MainApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,9 @@
       <workItem from="1607976148775" duration="2448000" />
       <workItem from="1608235713537" duration="3177000" />
       <workItem from="1608298802234" duration="610000" />
-      <workItem from="1608303132479" duration="8090000" />
+      <workItem from="1608303132479" duration="8163000" />
+      <workItem from="1608387229052" duration="2725000" />
+      <workItem from="1608390242056" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -175,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608318220167</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added content to setting screen">
+      <created>1608323131431</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608323131431</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +207,7 @@
     <MESSAGE value="." />
     <MESSAGE value="added floating button to chatscreen" />
     <MESSAGE value="added Login Screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="added Login Screen." />
+    <MESSAGE value="added content to setting screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added content to setting screen" />
   </component>
 </project>

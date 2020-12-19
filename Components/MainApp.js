@@ -1,8 +1,7 @@
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import {NavigationContainer} from '@react-navigation/native';
 
-import Settings from "./Screens/Settings";
+import SettingManager from "./SettingManager";
 import ChatHandler from "./ChatHandler";
 
 export default function App() {
@@ -19,7 +18,7 @@ export default function App() {
                 drawerStyle={{backgroundColor: "#666666"}}
                 drawerContentOptions={drawercontentstyle}>
                 <Drawer.Screen name="Chats" component={ChatHandler}/>
-                <Drawer.Screen name="Settings" component={Settings}/>
+                <Drawer.Screen name="Settings" component={SettingManager}/>
             </Drawer.Navigator>
 
     );
