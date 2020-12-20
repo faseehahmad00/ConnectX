@@ -3,8 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 
-import Login from './Screens/Login';
-import MainApp from './Components/MainApp'
+import Login from './src/Screens/Login';
+import MainApp from './src/Components/MainApp'
 
 export default function App() {
     const Stack = createStackNavigator();

@@ -1,12 +1,11 @@
 import React from "react";
-import {TouchableOpacity,ImageBackground, StyleSheet, Text, View } from "react-native";
-import { Button,Icon} from 'native-base';
+import {ImageBackground, StyleSheet, Text, View} from "react-native";
+import {Button, Icon} from 'native-base';
 import {StatusBar} from 'expo-status-bar';
 
 const image = require('../assets/login.jpg')
 
 export default function Login ({navigation}) {
-
     return (
         <View style={styles.container}>
             <StatusBar style='light'/>
@@ -16,7 +15,7 @@ export default function Login ({navigation}) {
                     <Text style={styles.headtext}>ConnectX</Text>
                 </View>
                 <View style={styles.body}>
-                    <Button style={styles.btn}  icon block large dark onPress={()=>navigation.navigate('LoginManager')}>
+                    <Button style={styles.btn} icon block large dark onPress={()=>navigation.navigate('LoginManager')}>
                         <Icon name='logo-google' />
                         <Text style={{color:'white'}}>Sign in with Google</Text>
                     </Button>
@@ -26,6 +25,7 @@ export default function Login ({navigation}) {
         </View>
     );
 }
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -70,6 +70,4 @@ const styles = StyleSheet.create({
         opacity:1,
         textAlign: "center",
     }
-
-
 });
