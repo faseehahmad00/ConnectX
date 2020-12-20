@@ -4,9 +4,8 @@ import Avatar from './Avatar';
 import {
     View,
     Text,
-    Image, StyleSheet,
+    StyleSheet,
 } from 'react-native';
-import { Container, Header,Button, Icon, Fab } from 'native-base';
 
 export default function ChatItem (props) {
         return (

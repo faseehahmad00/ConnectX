@@ -1,9 +1,8 @@
 import React from 'react';
 import {TouchableOpacity, StyleSheet, View, FlatList} from "react-native";
-import { Icon,Button,Container, Text} from 'native-base';
 import {StatusBar} from "expo-status-bar";
-import ChatItem from "../ChatItem";
-import ContactData from "../../Data/ContactData";
+import ChatItem from "../Components/ChatItem";
+import ContactData from "../Data/ContactData";
 
 export default function NewMessgae(props) {
     return (
@@ -17,7 +16,7 @@ export default function NewMessgae(props) {
                     renderItem={({ item }) => (
                         <TouchableOpacity style={styles.chatitem} >
                             <ChatItem
-                                avatar={require('../../assets/avtr.png')}
+                                avatar={require('../assets/avtr.png')}
                                 alt={item.alt}
                                 title={item.title}
                                 subtitle={item.subtitle}

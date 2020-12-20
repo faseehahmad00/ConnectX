@@ -3,7 +3,7 @@ import {TouchableOpacity,ImageBackground, StyleSheet, Text, View } from "react-n
 import { Button,Icon} from 'native-base';
 import {StatusBar} from 'expo-status-bar';
 
-const image = require('../../assets/login.jpg')
+const image = require('../assets/login.jpg')
 
 export default function Login ({navigation}) {
 

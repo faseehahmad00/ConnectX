@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/Screens/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Screens/License.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Screens/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/SettingManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/license.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/profileavatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/settings.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/LoginManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/MainApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/ChatItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/ChatItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/ChatScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/IndividualChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/License.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/License.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/NewMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SettingManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/SettingManager.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -70,7 +76,8 @@
       <workItem from="1608298802234" duration="610000" />
       <workItem from="1608303132479" duration="8163000" />
       <workItem from="1608387229052" duration="2725000" />
-      <workItem from="1608390242056" duration="804000" />
+      <workItem from="1608390242056" duration="3237000" />
+      <workItem from="1608466576503" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -191,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608323131431</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added Profile.js , About.js , License.js">
+      <created>1608391152303</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608391152303</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +222,7 @@
     <MESSAGE value="added floating button to chatscreen" />
     <MESSAGE value="added Login Screen." />
     <MESSAGE value="added content to setting screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="added content to setting screen" />
+    <MESSAGE value="added Profile.js , About.js , License.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Profile.js , About.js , License.js" />
   </component>
 </project>

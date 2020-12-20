@@ -1,11 +1,9 @@
-// In App.js in a new project
-
 import * as React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import Profile from "./Screens/Profile";
-import License from "./Screens/License";
-import About from "./Screens/About";
-import Settings from "./Screens/Settings";
+import Profile from "../Screens/Profile";
+import License from "../Screens/License";
+import About from "../Screens/About";
+import Settings from "../Screens/Settings";
 
 const Stack = createStackNavigator();
 

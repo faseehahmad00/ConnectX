@@ -3,9 +3,9 @@ import {StyleSheet, View} from "react-native";
 import { createStackNavigator } from '@react-navigation/stack';
 import { Button, Icon } from 'native-base';
 
-import ChatScreen from "./Screens/ChatScreen";
-import IndividualChat from "./Screens/IndividualChat";
-import NewMessage from './Screens/NewMessage'
+import ChatScreen from "../Screens/ChatScreen";
+import IndividualChat from "../Screens/IndividualChat";
+import NewMessage from '../Screens/NewMessage'
 import ContactData from "../Data/ContactData";
 
 export default function ChatHandler({ navigation }) {
