@@ -29,5 +29,4 @@ export default[
             avatar: 'https://placeimg.com/140/140/any',
         },
     },
-
 ]

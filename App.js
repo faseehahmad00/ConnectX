@@ -2,6 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
+import './src/firebase';
+import './src/timer-workarround';
 
 import Login from './src/Screens/Login';
 import MainApp from './src/Components/MainApp'
