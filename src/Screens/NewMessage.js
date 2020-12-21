@@ -5,7 +5,7 @@ import ChatItem from "../Components/ChatItem";
 
 import {db} from '../firebase';
 
-export default function NewMessgae() {
+export default function NewMessgae({navigation}) {
   const [contacts, setContacts] = useState([]);
 
   db
@@ -25,9 +25,9 @@ export default function NewMessgae() {
               data={contacts}
               keyExtractor={item => item.id}
               renderItem={({item}) => (
-                  <TouchableOpacity style={styles.chatitem}>
+                  <TouchableOpacity style={styles.chatitem} >
                     <ChatItem
-                        avatar={require('../assets/avtr.png')}
+                        avatar={require('../assets/avtr2.png')}
                         title={item.name}
                         subtitle={item.status}
                     />
@@ -46,9 +46,9 @@ const styles = StyleSheet.create({
   body: {
     flexDirection: "row",
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: "#111",
   },
   chatitem: {
-    marginVertical: 1,
+    marginVertical: 0.5,
   },
 });

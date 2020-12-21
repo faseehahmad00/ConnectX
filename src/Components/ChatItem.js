@@ -87,14 +87,13 @@ const styles = StyleSheet.create({
 
     rceCitem: {
         position: 'relative',
-        backgroundColor: '#444444',
+        backgroundColor: '#000',
         display: 'flex',
         flexDirection: 'row',
-        height: 72,
+        height: 79,
         maxWidth: '100%',
         overflow: 'hidden',
         minWidth: 240,
-        borderRadius:15,
     },
 
     rceCitemHover: {
@@ -122,14 +121,14 @@ const styles = StyleSheet.create({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#ccc',
+        backgroundColor: 'green',
         overflow: 'hidden',
     },
 
     rceCitemAvatarImg: {
         width: 50,
         height: 50,
-        backgroundColor: '#ccc',
+        backgroundColor: '#000',
         borderRadius: 25,
         overflow: 'hidden',
         fontSize: 10,
@@ -169,7 +168,9 @@ const styles = StyleSheet.create({
         flex: 1,
         color:"#EEEEEE",
         overflow: 'hidden',
-        fontSize: 16,
+        fontSize: 18,
+        fontWeight: "bold",
+
     },
 
     rceCitemBodyBottomTitle: {

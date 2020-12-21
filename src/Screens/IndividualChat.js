@@ -49,13 +49,14 @@ export default function IndividualChat({route}) {
         setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
     }, [])
 
+    console.log(messages);
     return (
         <View style={styles.container}>
             <GiftedChat
                 messages={messages}
                 onSend={messages => onSend(messages)}
                 user={{
-                    _id: 'nmanumr',
+                    _id: "nmanumr",
                 }}
             />
         </View>
@@ -65,6 +66,6 @@ export default function IndividualChat({route}) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#777777',
+        backgroundColor: '#000',
     },
 });

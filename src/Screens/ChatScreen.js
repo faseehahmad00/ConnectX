@@ -41,27 +41,26 @@ export default function ChatScreen({navigation}) {
         <Fab
             active={false}
             containerStyle={{}}
-            style={{backgroundColor: '#000'}}
+            style={{backgroundColor: 'grey',}}
             position="bottomRight"
             onPress={() => navigation.navigate('NewMessage', {params: ContactData})}>
           <Icon name="chatbubbles"/>
         </Fab>
       </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: '#000',
   },
   body: {
     flex: 1,
-    backgroundColor: "black",
+    backgroundColor: "#111",
   },
   chatitem: {
-    marginVertical: 2,
-    marginHorizontal: 2,
+    marginVertical: 1,
   },
   img: {
     flex: 1,
