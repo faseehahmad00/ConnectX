@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Data/ChatData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tick.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ChatItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ChatItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/ContactData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ContactData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/IndividualChat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NewMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SettingManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SettingManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/License.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/License.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avtr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/license.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/tick.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
       <workItem from="1608536993763" duration="4396000" />
       <workItem from="1608571217901" duration="3492000" />
       <workItem from="1608579096182" duration="4271000" />
-      <workItem from="1608624848454" duration="6491000" />
+      <workItem from="1608624848454" duration="15428000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -214,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608583361151</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="replaced data for UI">
+      <created>1608635973837</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608635973837</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +242,7 @@
     <MESSAGE value="added content to setting screen" />
     <MESSAGE value="added Profile.js , About.js , License.js" />
     <MESSAGE value="fixed minor issues." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed minor issues." />
+    <MESSAGE value="replaced data for UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="replaced data for UI" />
   </component>
 </project>
