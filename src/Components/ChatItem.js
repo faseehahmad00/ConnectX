@@ -1,10 +1,11 @@
 import React from 'react';
 import Avatar from './Avatar';
-
+import {Icon} from 'native-base';
 import {
     View,
     Text,
     StyleSheet,
+    Image,
 } from 'react-native';
 
 export default function ChatItem (props) {
@@ -58,7 +59,7 @@ export default function ChatItem (props) {
                             <Text
                                 ellipsizeMode='tail'
                                 numberOfLines={1}
-                                style={styles.rceCitemBodyTopTitle}>
+                                style={styles.rceCitemBodyBottomTitle}>
                                 {props.subtitle}
                             </Text>
                             {
@@ -175,8 +176,9 @@ const styles = StyleSheet.create({
 
     rceCitemBodyBottomTitle: {
         flex: 1,
-        color: '#555',
-        fontSize: 15,
+        color: '#EEEEEE',
+        fontSize: 13,
+        fontWeight:"bold",
     },
 
     rceCitemBodyTopTime: {

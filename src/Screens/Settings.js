@@ -68,19 +68,19 @@ const styles = StyleSheet.create({
     },
     body: {
         flex: 0.92,
-        backgroundColor: "#666666",
+        backgroundColor: "#000",
     },
     profilecard: {
         flexDirection: "row",
         flex: 0.1,
         margin: 10,
-        backgroundColor: "#888",
+        backgroundColor: "#666",
         borderRadius: 30,
     },
     img: {
         fontSize:60,
         flex: 0.15,
-        backgroundColor: "#888",
+        backgroundColor: "#666",
         borderRadius: 100,
         marginLeft: 25,
     },
