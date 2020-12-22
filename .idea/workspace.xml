@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <workItem from="1608536993763" duration="4396000" />
       <workItem from="1608571217901" duration="3492000" />
       <workItem from="1608579096182" duration="4271000" />
-      <workItem from="1608624848454" duration="15934000" />
+      <workItem from="1608624848454" duration="16281000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608645632797</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed issue with navigation.">
+      <created>1608645977653</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608645977653</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +249,7 @@
     <MESSAGE value="fixed minor issues." />
     <MESSAGE value="replaced data for UI" />
     <MESSAGE value="added licese&#10;added content to Profile.js , About.js , License.js&#10;improved UI." />
-    <option name="LAST_COMMIT_MESSAGE" value="added licese&#10;added content to Profile.js , About.js , License.js&#10;improved UI." />
+    <MESSAGE value="fixed issue with navigation." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue with navigation." />
   </component>
 </project>

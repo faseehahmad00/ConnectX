@@ -24,11 +24,11 @@ export default function ChatScreen({navigation}) {
           <FlatList
               data={chats}
               inverted ={true}
+              initialScrollIndex={ChatData.length-1}
               keyExtractor={item => item.title}
               renderItem={({item}) => (
                   <TouchableOpacity style={styles.chatitem}
                                     onPress={() => navigation.navigate('Username', {chat: item, title: item.title})}
-                                    onLongPress ={()=> setLongpress(true)}
                   >
                     <ChatItem
                         avatar={require('../assets/avtr2.png')}
