@@ -24,7 +24,7 @@ export default function ChatScreen({navigation}) {
           <FlatList
               data={chats}
               inverted ={true}
-              initialScrollIndex={ChatData.length-1}
+              initialScrollIndex={(chats.length)-1}
               keyExtractor={item => item.title}
               renderItem={({item}) => (
                   <TouchableOpacity style={styles.chatitem}
