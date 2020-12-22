@@ -1,7 +1,7 @@
 import React from "react";
 import {TouchableOpacity,ScrollView,Text,View,StyleSheet,Image} from "react-native";
 
-export default function About(){
+export default function About({navigation}){
     return(
         <View style={styles.container}>
             <View style={styles.textbody}>
@@ -20,8 +20,8 @@ export default function About(){
                 </Text>
             </View>
             <View style={styles.bodycenter}>
-            <TouchableOpacity style={styles.btn}>
-                <Text style={{fontSize:18,color:'red'}}>
+            <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('License')}>
+                <Text style={{fontSize:22,color:'red'}}>
                     LICENSE
                 </Text>
             </TouchableOpacity>
