@@ -80,7 +80,7 @@ export default [
     {
         avatar: '../assets/favicon.png',
         alt:'Reactjs',
-        title:'HAfiz Nauman Ahmad',
+        title:'Hafiz Nauman Ahmad',
         subtitle:'What are you doing?',
         date:new Date(),
         unread:2,
@@ -98,7 +98,7 @@ export default [
     {
         avatar: '../assets/favicon.png',
         alt:'Reactjs',
-        title:'HAfiz Ahmad Ali',
+        title:'Hafiz Ahmad Ali',
         subtitle:'What are you doing?',
         date:new Date(),
         unread:1,

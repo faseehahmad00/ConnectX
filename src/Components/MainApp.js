@@ -8,14 +8,14 @@ export default function App() {
     const Drawer = createDrawerNavigator();
     const drawercontentstyle = {
         inactiveTintColor: "#ffffff",
-        activeTintColor: '#add8e6',
+        activeTintColor: 'goldenrod',
         itemStyle: {marginVertical: 6},
     }
 
     return (
             <Drawer.Navigator
                 initialRouteName="My Profile"
-                drawerStyle={{backgroundColor: "#666666"}}
+                drawerStyle={{backgroundColor: "#444"}}
                 drawerContentOptions={drawercontentstyle}>
                 <Drawer.Screen name="Chats" component={ChatHandler}/>
                 <Drawer.Screen name="Settings" component={SettingManager}/>
