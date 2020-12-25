@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/ChatData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ChatData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/IndividualChatData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/IndividualChatData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ChatHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/ChatData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/ContactData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/IndividualChatData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/IndividualChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NewMessage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
       <workItem from="1608624848454" duration="17597000" />
       <workItem from="1608667151659" duration="603000" />
       <workItem from="1608829548771" duration="1939000" />
+      <workItem from="1608926343589" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>

@@ -3,19 +3,17 @@ import {FlatList, TouchableOpacity, StyleSheet, View, Text} from "react-native";
 import {StatusBar} from 'expo-status-bar';
 import ChatItem from "../Components/ChatItem";
 import {Icon, Fab} from 'native-base';
-import ContactData from "../Data/ContactData";
-import ChatData from "../Data/ChatData";
 import {db} from '../firebase';
 
 export default function ChatScreen({navigation}) {
-  // const [chats, setChat] = useState([]);
-    const [chats, setChat] = useState(ChatData);
-  // db
-  //     .collection('chats')
-  //     .where('participants', 'array-contains', 'nmanumr')
-  //     .onSnapshot((snap) => {
-  //       setChat(() => snap.docs.map(d => ({...d.data(), id: d.id})));
-  //     });
+  const [chats, setChat] = useState([]);
+
+  db
+      .collection('chats')
+      .where('participants', 'array-contains', 'nmanumr')
+      .onSnapshot((snap) => {
+        setChat(() => snap.docs.map(d => ({...d.data(), id: d.id})));
+      });
 
   return (
       <View style={styles.container}>
@@ -23,9 +21,9 @@ export default function ChatScreen({navigation}) {
           <View style={styles.body}>
           <FlatList
               data={chats}
-              inverted ={true}
-              initialScrollIndex={(chats.length)-1}
-              keyExtractor={item => item.title}
+              // inverted ={true}
+              // initialScrollIndex={(chats.length)-1}
+              keyExtractor={item => item.id}
               renderItem={({item}) => (
                   <TouchableOpacity style={styles.chatitem}
                                     onPress={() => navigation.navigate('Username', {chat: item, title: item.title})}
@@ -60,7 +58,7 @@ const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
-    backgroundColor: "#111",
+    backgroundColor: "#222",
   },
   chatitem: {
     marginVertical: 1,

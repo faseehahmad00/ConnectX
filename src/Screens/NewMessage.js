@@ -4,40 +4,39 @@ import {StatusBar} from "expo-status-bar";
 import ChatItem from "../Components/ChatItem";
 
 import {db} from '../firebase';
-import ContactData from "../Data/ContactData";
-import ChatData from "../Data/ChatData";
+
 
 export default function NewMessgae({navigation}) {
-  // const [contacts, setContacts] = useState([]);
-    const [contacts, setContacts] = useState(ContactData);
+  const [contacts, setContacts] = useState([]);
 
-    //
-  // db
-  //     .collection('users')
-  //     .onSnapshot((snap) => {
-  //       const msgs = snap.docs
-  //           .map(d => ({...d.data(), id: d.id}))
-  //           .sort((a, b) => a.name.localeCompare(b.name));
-  //       setContacts(() => msgs);
-  //     });
+
+  db
+      .collection('users')
+      .onSnapshot((snap) => {
+        const msgs = snap.docs
+            .map(d => ({...d.data(), id: d.id}))
+            .sort((a, b) => a.name.localeCompare(b.name));
+        setContacts(() => msgs);
+      });
 
   return (
       <View style={styles.container}>
         <StatusBar style='light'/>
         <View style={styles.body}>
           <FlatList
-              data={ContactData}
-              keyExtractor={item => item.title}
+              data={contacts}
+              keyExtractor={item => item.id}
               renderItem={({item}) => (
                   <TouchableOpacity style={styles.chatitem}
-                                    onPress={()=>{
-                                        if(!ChatData.find((a)=> a.title===item.title ))
-                                            ChatData.push(item);
-                                        navigation.navigate('Username',{title:item.title});
-                                    }}>
+                                    // onPress={()=>{
+                                    //     // if(!ChatData.find((a)=> a.id===item.id ))
+                                    //     //     ChatData.push(item);
+                                    //     navigation.navigate('Username',{title:item.title});
+                                    // }}
+                      >
                     <ChatItem
                         avatar={require('../assets/avtr2.png')}
-                        title={item.title}
+                        title={item.name}
                         subtitle={item.subtitle}
                     />
                   </TouchableOpacity>
