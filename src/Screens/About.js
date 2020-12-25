@@ -16,7 +16,7 @@ export default function About({navigation}){
                     -> Abdul Wali
                 </Text>
                 <Text style={styles.text}>
-                    and distributed under MIT License for public use.
+                    Published and distributed under MIT License for public use.
                 </Text>
             </View>
             <View style={styles.bodycenter}>
