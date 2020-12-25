@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ChatHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/ChatData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/ContactData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/IndividualChatData.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/IndividualChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/License.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/License.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NewMessage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +78,7 @@
       <workItem from="1608624848454" duration="17597000" />
       <workItem from="1608667151659" duration="603000" />
       <workItem from="1608829548771" duration="1939000" />
-      <workItem from="1608926343589" duration="1687000" />
+      <workItem from="1608926343589" duration="4582000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -258,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608647229415</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="restored firebase.">
+      <created>1608928205326</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608928205329</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +285,7 @@
     <MESSAGE value="added licese&#10;added content to Profile.js , About.js , License.js&#10;improved UI." />
     <MESSAGE value="fixed issue with navigation." />
     <MESSAGE value="fixed UI issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed UI issues" />
+    <MESSAGE value="restored firebase." />
+    <option name="LAST_COMMIT_MESSAGE" value="restored firebase." />
   </component>
 </project>

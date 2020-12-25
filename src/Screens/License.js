@@ -5,10 +5,10 @@ export default function License(){
     return(
         <View style={styles.container}>
             <ScrollView style={styles.body}>
-            <Text style={{color:'white',fontSize: 25,marginLeft:10,textAlign: "center"}}>
+            <Text style={{color:'white',fontSize: 25,marginTop: 30,marginLeft:10,textAlign: "center"}}>
                 MIT License
             </Text>
-            <Text style={{color:'red',fontSize: 18,marginLeft:10,marginTop:10,}}>
+            <Text style={{color:'red',fontSize: 18,marginLeft:10,marginTop:30,}}>
                 Copyright (c) 2020 Faseeh Ahmad
            </Text>
             <Text style={styles.text}>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         marginLeft: 5,
     },
     text:{
-        marginTop:10,
+        marginTop:15,
         color:"white",
         fontSize:18,
         marginLeft:10,

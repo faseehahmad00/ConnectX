@@ -1,23 +1,27 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {TouchableOpacity, StyleSheet, View, FlatList} from "react-native";
 import {StatusBar} from "expo-status-bar";
 import ChatItem from "../Components/ChatItem";
 
 import {db} from '../firebase';
+import {usersStore} from "../usersStore";
 
 
 export default function NewMessgae({navigation}) {
   const [contacts, setContacts] = useState([]);
 
+    useEffect(() => {
+        db
+            .collection('users')
+            .onSnapshot((snap) => {
+                const msgs = snap.docs
+                    .map(d => ({...d.data(), id: d.id}))
+                    .sort((a, b) => a.name.localeCompare(b.name));
+                setContacts(() => msgs);
+            });
+    }, [])
 
-  db
-      .collection('users')
-      .onSnapshot((snap) => {
-        const msgs = snap.docs
-            .map(d => ({...d.data(), id: d.id}))
-            .sort((a, b) => a.name.localeCompare(b.name));
-        setContacts(() => msgs);
-      });
+
 
   return (
       <View style={styles.container}>

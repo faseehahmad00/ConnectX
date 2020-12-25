@@ -19,26 +19,26 @@ export default function IndividualChat({route,navigation}) {
     const {chat} = route.params;
 
     useEffect(() => {
-        // setMessages(IndividualChatData)
         navigation.setOptions({title:route.params.title});
+        db
+            .collection(`/chats/${chat.id}/messages/`)
+            .orderBy('createdAt', 'desc')
+            .onSnapshot(async (snap) => {
+                const msgs = snap.docs.map(d => ({
+                    ...d.data(),
+                    _id: d.id,
+                    createdAt: d.data().createdAt.toDate(),
+                }));
+                for (let message of msgs) {
+                    message.user = await usersStore.getData(message.sender);
+                }
+                setMessages(() => msgs);
+            });
+
     }, [])
 
-    db
-        .collection(`/chats/${chat.id}/messages/`)
-        .orderBy('createdAt', 'desc')
-        .onSnapshot(async (snap) => {
-            const msgs = snap.docs.map(d => ({
-                ...d.data(),
-                _id: d.id,
-                createdAt: d.data().createdAt.toDate(),
-            }));
-            for (let message of msgs) {
-                message.user = await usersStore.getData(message.sender);
-            }
-            setMessages(() => msgs);
-        });
-
     const onSend = useCallback(async (messages = []) => {
+        setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
         for (let message of messages) {
             console.log("started");
             const doc = await db.collection(`/chats/${chat.id}/messages/`).add({
@@ -48,7 +48,6 @@ export default function IndividualChat({route,navigation}) {
             });
             console.log("done");
         }
-        setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
     }, [])
 
     return (
