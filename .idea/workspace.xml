@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ChatItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ChatItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/IndividualChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NewMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608930952301</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update">
+      <created>1608988799167</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608988799167</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +335,21 @@
     <MESSAGE value="fixed UI issues" />
     <MESSAGE value="restored firebase." />
     <MESSAGE value="fixed issues with firebase." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issues with firebase." />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="150" key="CommitChangelistDialog2" timestamp="1608988798995">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="479" y="150" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1608988798995" />
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1608988820909">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1608988820909" />
+    <state x="597" y="315" width="597" height="490" key="find.popup" timestamp="1608992847429">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="597" y="315" width="597" height="490" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1608992847429" />
   </component>
 </project>

@@ -12,7 +12,6 @@ export default function Login ({navigation}) {
             <ImageBackground source={image} style={styles.imageContainer}>
                 <View style={styles.head}>
                     <Text style={styles.headtext}>Welcome To ConnectX</Text>
-                    {/*<Text style={styles.headtext}>ConnectX</Text>*/}
                 </View>
                 <View style={styles.body}>
                     <Button style={styles.btn} icon block large dark onPress={()=>navigation.navigate('LoginManager')}>
