@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/IndividualChat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/License.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/License.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NewMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/login.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,8 @@
       <workItem from="1608624848454" duration="17597000" />
       <workItem from="1608667151659" duration="603000" />
       <workItem from="1608829548771" duration="1939000" />
-      <workItem from="1608926343589" duration="4582000" />
+      <workItem from="1608926343589" duration="4629000" />
+      <workItem from="1608968987723" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -262,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608928205329</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fixed issues with firebase.">
+      <created>1608930952301</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1608930952301</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +292,7 @@
     <MESSAGE value="fixed issue with navigation." />
     <MESSAGE value="fixed UI issues" />
     <MESSAGE value="restored firebase." />
-    <option name="LAST_COMMIT_MESSAGE" value="restored firebase." />
+    <MESSAGE value="fixed issues with firebase." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issues with firebase." />
   </component>
 </project>

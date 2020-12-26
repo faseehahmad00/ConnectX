@@ -11,8 +11,8 @@ export default function Login ({navigation}) {
             <StatusBar style='light'/>
             <ImageBackground source={image} style={styles.imageContainer}>
                 <View style={styles.head}>
-                    <Text style={styles.headtext}>Welcome To</Text>
-                    <Text style={styles.headtext}>ConnectX</Text>
+                    <Text style={styles.headtext}>Welcome To ConnectX</Text>
+                    {/*<Text style={styles.headtext}>ConnectX</Text>*/}
                 </View>
                 <View style={styles.body}>
                     <Button style={styles.btn} icon block large dark onPress={()=>navigation.navigate('LoginManager')}>
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#000000"
     },
     btn:{
-        backgroundColor: '#ff8c00',
+        backgroundColor: '#000',
         marginBottom:20,
         marginHorizontal:5,
         alignItems:"center",
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     },
     headtext:{
         color: "#ff8c00",
-        fontSize:45,
+        fontSize:32,
         fontWeight: "bold",
         marginLeft:8,
         opacity:1,
