@@ -1,7 +1,8 @@
-import React, {useEffect} from 'react';
+import React , {useRef} from 'react';
 import {Image, StyleSheet, TouchableOpacity, View} from "react-native";
-import {Button, Icon, Text} from 'native-base';
-import Constants from "expo-constants";
+import {Icon, Text} from 'native-base';
+
+
 
 export default function Settings({navigation}) {
     return (

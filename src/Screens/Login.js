@@ -1,7 +1,8 @@
 import React from "react";
-import {ImageBackground, StyleSheet, Text, View} from "react-native";
+import {TouchableOpacity,ImageBackground, StyleSheet, Text, View} from "react-native";
 import {Button, Icon} from 'native-base';
 import {StatusBar} from 'expo-status-bar';
+
 
 const image = require('../assets/login.jpg')
 
@@ -14,10 +15,12 @@ export default function Login ({navigation}) {
                     <Text style={styles.headtext}>Welcome To ConnectX</Text>
                 </View>
                 <View style={styles.body}>
-                    <Button style={styles.btn} icon block large dark onPress={()=>navigation.navigate('LoginManager')}>
-                        <Icon name='logo-google' />
-                        <Text style={{color:'white'}}>Sign in with Google</Text>
-                    </Button>
+                    <View style={styles.bottom}>
+                    <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('LoginManager')}>
+                        <Icon name='logo-google' style={{color:'#ff8c00'}} />
+                        <Text style={{color:'white',marginLeft: 10}}>Sign in with Google</Text>
+                    </TouchableOpacity>
+                    </View>
                 </View>
 
             </ImageBackground>
@@ -46,6 +49,12 @@ const styles = StyleSheet.create({
         alignItems:"center",
 
     },
+    bottom:{
+      flex:0.08,
+        flexDirection: 'row',
+        marginBottom:20,
+
+    },
     text: {
         color: "white",
         fontSize: 42,
@@ -54,12 +63,16 @@ const styles = StyleSheet.create({
         backgroundColor: "#000000"
     },
     btn:{
-        backgroundColor: '#000',
-        marginBottom:20,
+        flexDirection:'row',
+        backgroundColor: '#000000',
         marginHorizontal:5,
         alignItems:"center",
-        flex:0.05,
+        justifyContent:"center",
+        flex:1,
+        height:50,
         borderRadius:100,
+        borderColor:"#000",
+        opacity:1,
     },
     headtext:{
         color: "#ff8c00",
