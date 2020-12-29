@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {FlatList, StyleSheet, TouchableOpacity, View} from "react-native";
 import {StatusBar} from 'expo-status-bar';
 import ChatItem from "../Components/ChatItem";
-import {Icon} from 'native-base';
 import {db} from '../firebase';
+import {Ionicons} from "@expo/vector-icons";
 
 export default function ChatScreen({navigation}) {
     const [chats, setChat] = useState([]);
@@ -26,8 +26,6 @@ export default function ChatScreen({navigation}) {
             <View style={styles.body}>
                 <FlatList
                     data={chats}
-                    // inverted ={true}
-                    // initialScrollIndex={(chats.length)-1}
                     keyExtractor={item => item.id}
                     renderItem={({item}) => (
                         <TouchableOpacity style={styles.chatitem}
@@ -54,7 +52,7 @@ export default function ChatScreen({navigation}) {
             <TouchableOpacity
                 style={styles.floatingbutton}
                 onPress={() => navigation.navigate('NewMessage')}>
-                <Icon name="chatbubbles" style={{fontSize: 30, color: 'white',}}/>
+                <Ionicons name="chatbox" style={{fontSize: 26, color: 'white',}}/>
             </TouchableOpacity>
         </View>
     );
@@ -81,11 +79,11 @@ const styles = StyleSheet.create({
         borderColor: 'rgba(0,0,0,0.2)',
         alignItems: 'center',
         justifyContent: 'center',
-        width: 70,
+        width: 60,
         position: 'absolute',
         bottom: 30,
         right: 25,
-        height: 70,
+        height:60 ,
         backgroundColor: '#444',
         borderRadius: 100,
     },

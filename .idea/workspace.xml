@@ -20,10 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/undraw2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_12_20_1_27_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_12_20_1_27_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ChatHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ChatHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SettingManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SettingManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/login.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +41,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lQOskW1BptjoH1j0Z1j9tqcIco" />
   <component name="ProjectLevelVcsManager">
@@ -98,6 +114,11 @@
       <workItem from="1608829548771" duration="1939000" />
       <workItem from="1608926343589" duration="4629000" />
       <workItem from="1608968987723" duration="1660000" />
+      <workItem from="1609090757246" duration="15000" />
+      <workItem from="1609142432240" duration="420000" />
+      <workItem from="1609270890433" duration="747000" />
+      <workItem from="1609271666626" duration="501000" />
+      <workItem from="1609272404643" duration="6498000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -295,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608988799167</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="updated floating buttons.(UI)">
+      <created>1609016350510</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1609016350510</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,20 +361,7 @@
     <MESSAGE value="restored firebase." />
     <MESSAGE value="fixed issues with firebase." />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="479" y="150" key="CommitChangelistDialog2" timestamp="1608988798995">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="479" y="150" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1608988798995" />
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1608988820909">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1608988820909" />
-    <state x="597" y="315" width="597" height="490" key="find.popup" timestamp="1608992847429">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="597" y="315" width="597" height="490" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1608992847429" />
+    <MESSAGE value="updated floating buttons.(UI)" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated floating buttons.(UI)" />
   </component>
 </project>

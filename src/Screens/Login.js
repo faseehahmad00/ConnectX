@@ -1,29 +1,32 @@
 import React from "react";
-import {TouchableOpacity,ImageBackground, StyleSheet, Text, View} from "react-native";
-import {Button, Icon} from 'native-base';
+import {Image,TouchableOpacity,StyleSheet, Text, View} from "react-native";
 import {StatusBar} from 'expo-status-bar';
-
-
-const image = require('../assets/login.jpg')
+import { Ionicons } from '@expo/vector-icons';
 
 export default function Login ({navigation}) {
     return (
         <View style={styles.container}>
-            <StatusBar style='light'/>
-            <ImageBackground source={image} style={styles.imageContainer}>
+            <StatusBar style='dark' backgroundColor={'#fff'}/>
                 <View style={styles.head}>
-                    <Text style={styles.headtext}>Welcome To ConnectX</Text>
+                    <Text style={styles.headtext}>ConnectX</Text>
                 </View>
                 <View style={styles.body}>
-                    <View style={styles.bottom}>
-                    <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('LoginManager')}>
-                        <Icon name='logo-google' style={{color:'#ff8c00'}} />
-                        <Text style={{color:'white',marginLeft: 10}}>Sign in with Google</Text>
-                    </TouchableOpacity>
+                    <View style={{flex:0.7,justifyContent:'center'}}>
+                    <Image style={styles.img} source={require('../assets/undraw2.png')}/>
                     </View>
-                </View>
+                    <View style={{flex:0.3}}>
+                        <Text style={styles.welcometext}>WELCOME !</Text>
+                        <Text style={styles.descriptiontext}>ConnectX is an interactive chatting app.</Text>
+                        <Text style={styles.descriptiontext}>Please Signin to use Services</Text>
 
-            </ImageBackground>
+                    </View>
+                    </View>
+            <View style={styles.bottom}>
+                <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('LoginManager')}>
+                    <Ionicons name='logo-google' style={{color:'#6C63FF',fontSize:30}} />
+                    <Text style={{color:'white', marginLeft: 15}}>Sign in with Google</Text>
+                </TouchableOpacity>
+            </View>
         </View>
     );
 }
@@ -34,38 +37,26 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         justifyContent:'flex-start',
     },
-    imageContainer: {
-        flex: 1,
-        resizeMode: "cover",
-        justifyContent: "flex-start",
-    },
     head:{
         justifyContent:"center",
-        flex:0.3,
+        flex:0.2,
+        backgroundColor:"#fff",
     },
     body:{
         flex:0.7,
-        justifyContent: "flex-end",
-        alignItems:"center",
+        backgroundColor:'#fff',
 
     },
     bottom:{
-      flex:0.08,
+        flex:0.1,
         flexDirection: 'row',
-        marginBottom:20,
-
-    },
-    text: {
-        color: "white",
-        fontSize: 42,
-        fontWeight: "bold",
-        textAlign: "center",
-        backgroundColor: "#000000"
+        backgroundColor:"#fff",
+        alignItems:'center',
     },
     btn:{
         flexDirection:'row',
-        backgroundColor: '#000000',
-        marginHorizontal:5,
+        backgroundColor: '#3f3d56',
+        marginHorizontal:18,
         alignItems:"center",
         justifyContent:"center",
         flex:1,
@@ -75,11 +66,32 @@ const styles = StyleSheet.create({
         opacity:1,
     },
     headtext:{
-        color: "#ff8c00",
-        fontSize:32,
+        color: "#6C63FF",
+        fontFamily:"sans-serif-medium",
+        fontSize:40,
         fontWeight: "bold",
-        marginLeft:8,
         opacity:1,
         textAlign: "center",
+        marginBottom: 5,
+    },
+    welcometext:{
+        color: "#3f3d56",
+        fontFamily:"sans-serif-medium",
+        fontSize:20,
+        opacity:1,
+        textAlign: "center",
+        marginBottom:15,
+    },
+    descriptiontext:{
+        color: "#3f3d56",
+        fontFamily:"sans-serif-medium",
+        fontSize:16,
+        opacity:1,
+        textAlign: "center",
+    },
+    img:{
+        height:400,
+        width:400,
+        resizeMode:"contain",
     }
 });

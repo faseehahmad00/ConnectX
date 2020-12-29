@@ -1,6 +1,6 @@
 import React , {useRef} from 'react';
-import {Image, StyleSheet, TouchableOpacity, View} from "react-native";
-import {Icon, Text} from 'native-base';
+import {Text, StyleSheet, TouchableOpacity, View} from "react-native";
+import {Ionicons} from "@expo/vector-icons";
 
 
 
@@ -11,21 +11,21 @@ export default function Settings({navigation}) {
             <View style={styles.body}>
                 <View style={{flex:0.002,backgroundColor:'#444',marginHorizontal:20,}}/>
                 <TouchableOpacity style={styles.profilecard} onPress={()=>navigation.navigate('Profile')}>
-                    <Icon style={styles.img} name="person"/>
+                    <Ionicons style={styles.img} name="person"/>
                     <View style={{flex: 0.7, justifyContent: 'center', alignItems: 'center',}}>
                         <Text style={styles.profiletext}>Profile</Text>
                     </View>
                 </TouchableOpacity>
                 <View style={{flex:0.002,backgroundColor:'#444',marginHorizontal:20,}}/>
                 <TouchableOpacity style={styles.profilecard} onPress={()=>navigation.navigate('About')}>
-                    <Icon style={styles.img} type="Ionicons" name="information-circle-outline"/>
+                    <Ionicons style={styles.img} type="Ionicons" name="information-circle-outline"/>
                     <View style={{flex: 0.7, justifyContent: 'center', alignItems: 'center',}}>
                         <Text style={styles.profiletext}>About</Text>
                     </View>
                 </TouchableOpacity>
                 <View style={{flex:0.002,backgroundColor:'#444',marginHorizontal:20,}}/>
                 <TouchableOpacity style={styles.profilecard} onPress={()=>navigation.navigate('License')}>
-                    <Icon style={styles.img} name="paper"/>
+                    <Ionicons style={styles.img} name="newspaper"/>
                     <View style={{flex: 0.7, justifyContent: 'center', alignItems: 'center',}}>
                         <Text style={styles.profiletext}>License</Text>
                     </View>

@@ -1,5 +1,5 @@
 import React from "react";
-import {TouchableOpacity,ScrollView,Text,View,StyleSheet,Image} from "react-native";
+import {TouchableOpacity,Text,View,StyleSheet,Image} from "react-native";
 
 export default function About({navigation}){
     return(
