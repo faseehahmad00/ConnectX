@@ -15,12 +15,12 @@ export default function SettingManager({navigation}) {
         <Stack.Navigator>
             <Stack.Screen name="Settings" component={Settings} options={{
                 headerStyle: {
-                    backgroundColor: '#000000',
+                    backgroundColor: '#fff',
                 },
-                headerTintColor: '#fff',
+                headerTintColor: '#000',
                 headerLeft: () => (
                     <TouchableOpacity style={{flex:1,justifyContent:"center",marginLeft:10}} onPress={() => navigation.openDrawer()}>
-                        <Ionicons name='menu' style={{color:'white',fontSize:24}}/>
+                        <Ionicons name='menu' style={{color:'black',fontSize:24}}/>
                     </TouchableOpacity>
                 ),
             }}
@@ -28,21 +28,21 @@ export default function SettingManager({navigation}) {
             />
             <Stack.Screen name="Profile" component={Profile} options={{
                 headerStyle: {
-                    backgroundColor: '#000000',
+                    backgroundColor: '#fff',
                 },
-                headerTintColor: '#fff',
+                headerTintColor: '#000',
             }}/>
             <Stack.Screen name="License" component={License} options={{
                 headerStyle: {
-                    backgroundColor: '#000000',
+                    backgroundColor: '#fff',
                 },
-                headerTintColor: '#fff',
+                headerTintColor: '#000',
             }}/>
             <Stack.Screen name="About" component={About} options={{
                 headerStyle: {
-                    backgroundColor: '#000000',
+                    backgroundColor: '#fff',
                 },
-                headerTintColor: '#fff',
+                headerTintColor: '#000',
             }}/>
         </Stack.Navigator>
 

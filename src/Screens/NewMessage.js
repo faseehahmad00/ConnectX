@@ -73,12 +73,12 @@ export default function NewMessgae({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: '#f5f5f5',
   },
   body: {
     flexDirection: "row",
     flex: 1,
-    backgroundColor: "#111",
+    backgroundColor: "#f5f5f5",
   },
   chatitem: {
     marginVertical: 0.5,

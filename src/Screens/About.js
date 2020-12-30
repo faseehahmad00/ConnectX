@@ -43,19 +43,20 @@ export default function About({navigation}){
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:"#000",
+        backgroundColor:"#f5f5f5",
     } ,
     textbody:{
         justifyContent:"center",
         flex:0.4,
-        backgroundColor: '#000',
+        backgroundColor: '#f5f5f5',
         marginRight:10,
         marginLeft: 5,
     },
     text:{
         marginTop:10,
-        color:"white",
+        color:"black",
         fontSize:20,
+        fontWeight:"bold",
         marginLeft:10,
         textAlign:"justify",
     },
@@ -67,7 +68,6 @@ const styles = StyleSheet.create({
         textAlign:"justify",
     },
     btn:{
-        backgroundColor:"black",
         alignSelf:"center",
     },
     bodycenter:{
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     },
     bodyend:{
         flex:0.05,
-        backgroundColor:"#000",
+        backgroundColor:"#f5f5f5",
     }
 
 });

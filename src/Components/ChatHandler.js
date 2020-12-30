@@ -12,27 +12,27 @@ export default function ChatHandler({ navigation }) {
             <Stack.Navigator initialRouteName="Chats">
                 <Stack.Screen name="Chats" component={ChatScreen} options={{
                     headerStyle: {
-                        backgroundColor: '#000000',
+                        backgroundColor: '#fff',
                     },
-                    headerTintColor: '#fff',
+                    headerTintColor: '#000',
                     headerLeft: () => (
                         <TouchableOpacity style={{flex:1,justifyContent:"center",marginLeft:10}} onPress={() => navigation.openDrawer()}>
-                            <Ionicons name='menu' style={{color:'white',fontSize:24}}/>
+                            <Ionicons name='menu' style={{color:'black',fontSize:24}}/>
                         </TouchableOpacity>
 
                     ),
                 }} />
                 <Stack.Screen name="Username" component={IndividualChat}  options={{
                     headerStyle: {
-                        backgroundColor: '#000000',
+                        backgroundColor: '#fff',
                     },
-                    headerTintColor: '#fff',
+                    headerTintColor: '#000',
                 }}/>
                 <Stack.Screen name="NewMessage" component={NewMessage}  options={{
                     headerStyle: {
-                        backgroundColor: '#000000',
+                        backgroundColor: '#fff',
                     },
-                    headerTintColor: '#fff',
+                    headerTintColor: '#000',
                 }}/>
             </Stack.Navigator>
 

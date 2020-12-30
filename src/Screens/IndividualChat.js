@@ -1,13 +1,39 @@
 import React, {useState, useCallback, useEffect} from 'react';
-import {StyleSheet, View} from "react-native";
-import {GiftedChat} from 'react-native-gifted-chat'
+import {StyleSheet, View,Text} from "react-native";
+import {InputToolbar,Bubble,GiftedChat} from 'react-native-gifted-chat'
 import {db} from '../firebase';
 import {usersStore} from "../usersStore";
+import Ionicons from "@expo/vector-icons";
 
 export default function IndividualChat({route, navigation}) {
   const [messages, setMessages] = useState([]);
   const {chat} = route.params;
 
+    function renderInputToolbar (props) {
+            return(
+              <InputToolbar
+                  {...props}
+                  containerStyle={{backgroundColor:"#FFF",
+                      marginHorizontal:10,marginVertical:5,borderRadius:20,}}
+              />
+            );
+    }
+    function renderBubble (props) {
+        return (
+            <Bubble
+                {...props}
+                wrapperStyle={{
+                    right: {
+                        backgroundColor: '#3f3d56'
+                    },
+                    left:{
+                        backgroundColor:'#6C63FF'
+                    }
+
+                }}
+            />
+        )
+    }
   useEffect(() => {
     navigation.setOptions({title: route.params.title});
     return db
@@ -57,16 +83,18 @@ export default function IndividualChat({route, navigation}) {
             messages={messages}
             onSend={messages => onSend(messages)}
             user={{
-              _id: "nmanumr",
+              _id: "LkYParmtrmR8VOVxX5EG",
             }}
+            renderBubble={renderBubble}
+            renderInputToolbar={renderInputToolbar}
         />
       </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#f5f5f5',
   },
 });

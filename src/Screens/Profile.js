@@ -22,7 +22,7 @@ export default function Profile() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'black',
+        backgroundColor: '#f5f5f5',
 
     },
     imgcontainer: {
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "center",
         alignItems: 'center',
-        backgroundColor: 'black',
+        backgroundColor: '#f5f5f5',
     },
     avtr: {
         flex: 0.3,
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     },
     details: {
         flex: 0.1,
-        backgroundColor: "black",
+        backgroundColor: "#f5f5f5",
 
     },
     status:{

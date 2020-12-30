@@ -22,7 +22,7 @@ export default function ChatScreen({navigation}) {
 
     return (
         <View style={styles.container}>
-            <StatusBar backgroundColor="#000000" style='light'/>
+            <StatusBar backgroundColor="#fff" style='dark'/>
             <View style={styles.body}>
                 <FlatList
                     data={chats}
@@ -32,8 +32,7 @@ export default function ChatScreen({navigation}) {
                                           onPress={() => navigation.navigate('Username', {
                                               chat: item,
                                               title: item.title
-                                          })}
-                        >
+                                          })}>
                             <ChatItem
                                 avatar={require('../assets/avtr2.png')}
                                 alt={item.alt}
@@ -52,7 +51,7 @@ export default function ChatScreen({navigation}) {
             <TouchableOpacity
                 style={styles.floatingbutton}
                 onPress={() => navigation.navigate('NewMessage')}>
-                <Ionicons name="chatbox" style={{fontSize: 26, color: 'white',}}/>
+                <Ionicons name="chatbox" style={{fontSize: 26, color: '#fff',}}/>
             </TouchableOpacity>
         </View>
     );
@@ -65,18 +64,14 @@ const styles = StyleSheet.create({
     },
     body: {
         flex: 1,
-        backgroundColor: "#222",
+        backgroundColor: "#f5f5f5",
     },
     chatitem: {
-        marginVertical: 1,
     },
     img: {
         flex: 1,
     },
     floatingbutton: {
-
-        borderWidth: 1,
-        borderColor: 'rgba(0,0,0,0.2)',
         alignItems: 'center',
         justifyContent: 'center',
         width: 60,
@@ -84,7 +79,7 @@ const styles = StyleSheet.create({
         bottom: 30,
         right: 25,
         height:60 ,
-        backgroundColor: '#444',
+        backgroundColor: '#000',
         borderRadius: 100,
     },
 

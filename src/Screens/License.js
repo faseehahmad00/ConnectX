@@ -1,11 +1,12 @@
 import React from "react";
 import {ScrollView,Text,View,StyleSheet} from "react-native";
+import Constants from "expo-constants";
 
 export default function License(){
     return(
         <View style={styles.container}>
             <ScrollView style={styles.body}>
-            <Text style={{color:'white',fontSize: 25,marginTop: 30,marginLeft:10,textAlign: "center"}}>
+            <Text style={{color:'black',fontSize: 25,marginTop: 10,marginLeft:10,fontWeight:"bold",textAlign: "center"}}>
                 MIT License
             </Text>
             <Text style={{color:'red',fontSize: 18,marginLeft:10,marginTop:30,}}>
@@ -30,9 +31,8 @@ export default function License(){
                 holders be liable for any claim, damages or other liability, whether in an action of
                 contract, tort or otherwise, arising from, out of or in connection with the software
                 or the use or other dealings in the software.
-
-
             </Text>
+
         </ScrollView>
             </View>
 
@@ -42,18 +42,23 @@ export default function License(){
 
 const styles = StyleSheet.create({
     container:{
+        // marginTop: Constants.statusBarHeight,
         flex:1,
-        backgroundColor:"#000",
+        backgroundColor:"#f5f5f5",
      } ,
     body:{
-      marginRight:10,
+        flex:1,
+        marginRight:10,
         marginLeft: 5,
+        backgroundColor: '#f5f5f5',
     },
     text:{
         marginTop:15,
-        color:"white",
-        fontSize:18,
-        marginLeft:10,
+        color:"#000000",
+        fontFamily:'serif',
+        fontSize:17,
+        fontWeight:"bold",
+        marginHorizontal:10,
         textAlign:"justify",
 
     }

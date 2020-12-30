@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
 
   rceCitem: {
     position: 'relative',
-    backgroundColor: '#000',
+    backgroundColor: '#fff',
     display: 'flex',
     flexDirection: 'row',
     height: 79,
@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     display: 'flex',
     alignItems: 'center',
+    backgroundColor:"#fff",
   },
 
   rceCitemStatus: {
@@ -121,16 +122,10 @@ const styles = StyleSheet.create({
   },
 
   rceCitemAvatarImg: {
-    width: 50,
-    height: 50,
-    backgroundColor: '#000',
-    borderRadius: 25,
+    width: 30,
+    height: 30,
     overflow: 'hidden',
-    fontSize: 10,
-    textAlign: 'center',
     lineHeight: 50,
-    // textOverflow: 'ellipsis',
-    // whiteSpace: 'nowrap',
   },
 
   rceCitemBody: {
@@ -161,7 +156,7 @@ const styles = StyleSheet.create({
 
   rceCitemBodyTopTitle: {
     flex: 1,
-    color: "#EEEEEE",
+    color: "#000",
     overflow: 'hidden',
     fontSize: 18,
     fontWeight: "bold",
@@ -170,14 +165,14 @@ const styles = StyleSheet.create({
 
   rceCitemBodyBottomTitle: {
     flex: 1,
-    color: '#EEEEEE',
+    color: '#000',
     fontSize: 13,
     fontWeight: "bold",
   },
 
   rceCitemBodyTopTime: {
     fontSize: 12,
-    color: '#EEEEEE',
+    color: '#000',
     marginLeft: 5,
     maxWidth: 100,
     justifyContent: 'flex-start',
@@ -188,7 +183,7 @@ const styles = StyleSheet.create({
     width: 20,
     height: 20,
     marginLeft: 3,
-    backgroundColor: 'goldenrod',
+    backgroundColor: 'green',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 9,
