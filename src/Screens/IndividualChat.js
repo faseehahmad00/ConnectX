@@ -1,5 +1,5 @@
 import React, {useState, useCallback, useEffect} from 'react';
-import {StyleSheet, View,Text} from "react-native";
+import {StyleSheet, View, Text, TouchableOpacity} from "react-native";
 import {InputToolbar,Bubble,GiftedChat} from 'react-native-gifted-chat'
 import {db} from '../firebase';
 import {usersStore} from "../usersStore";
@@ -13,8 +13,8 @@ export default function IndividualChat({route, navigation}) {
             return(
               <InputToolbar
                   {...props}
-                  containerStyle={{backgroundColor:"#FFF",
-                      marginHorizontal:10,marginVertical:5,borderRadius:20,}}
+                  containerStyle={{backgroundColor:"#666",
+                      marginHorizontal:0,borderTopEndRadius:15,borderTopStartRadius:15,}}
               />
             );
     }

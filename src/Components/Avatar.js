@@ -18,19 +18,18 @@ export default function Avatar (props){
 
 const styles =  StyleSheet.create({
     rceAvatarContainer: {
-        height:65,
-        width:65,
+        height:60,
+        width:60,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius:100,
-        borderWidth:0.5,
-        borderColor:"#AAA"
     },
 
     rceAvatarDefault: {
-        width: 50,
-        height: 50,
+        width: 60,
+        height: 60,
+        borderRadius:100,
     },
 
     rceAvatarContainerFlexibleRceAvatar: {

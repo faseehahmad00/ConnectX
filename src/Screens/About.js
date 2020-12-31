@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         backgroundColor:"#f5f5f5",
     } ,
     textbody:{
-        justifyContent:"center",
+        justifyContent:"flex-start",
         flex:0.4,
         backgroundColor: '#f5f5f5',
         marginRight:10,
@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
         marginTop:10,
         color:"goldenrod",
         fontSize:20,
+        fontWeight: 'bold',
         marginLeft:10,
         textAlign:"justify",
     },

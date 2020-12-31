@@ -9,17 +9,17 @@ import {Ionicons} from "@expo/vector-icons";
 export default function ChatHandler({ navigation }) {
     const Stack = createStackNavigator();
     return (
+
             <Stack.Navigator initialRouteName="Chats">
                 <Stack.Screen name="Chats" component={ChatScreen} options={{
                     headerStyle: {
                         backgroundColor: '#fff',
-                    },
+                        },
                     headerTintColor: '#000',
                     headerLeft: () => (
                         <TouchableOpacity style={{flex:1,justifyContent:"center",marginLeft:10}} onPress={() => navigation.openDrawer()}>
                             <Ionicons name='menu' style={{color:'black',fontSize:24}}/>
                         </TouchableOpacity>
-
                     ),
                 }} />
                 <Stack.Screen name="Username" component={IndividualChat}  options={{

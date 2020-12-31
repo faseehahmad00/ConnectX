@@ -27,6 +27,12 @@ export default function Settings({navigation}) {
                         <Text style={styles.profiletext}>License</Text>
                     </View>
                 </TouchableOpacity>
+                <TouchableOpacity style={styles.profilecard} >
+                    <Ionicons style={styles.img} name="log-out"/>
+                    <View style={{flex: 0.7, justifyContent: 'center', alignItems: 'center',}}>
+                        <Text style={styles.profiletext}>Log Out</Text>
+                    </View>
+                </TouchableOpacity>
 
             </View>
 
@@ -40,19 +46,19 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
     },
     body: {
-        flex: 0.92,
+        flex: 1,
         backgroundColor: "#fff",
     },
     profilecard: {
         flexDirection: "row",
-        flex: 0.12,
+        flex: 0.08,
         backgroundColor: "#fff",
         marginTop:10,
         borderBottomWidth:0.5,
         borderColor:"black",
     },
     img: {
-        fontSize:60,
+        fontSize:40,
         flex: 0.15,
         backgroundColor: "#fff",
         color:'black',
@@ -61,7 +67,7 @@ const styles = StyleSheet.create({
     },
     profiletext: {
         alignSelf: 'center',
-        fontSize: 35,
+        fontSize: 26,
         color:'#000',
         fontWeight: 'bold',
     }

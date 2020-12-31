@@ -19,6 +19,10 @@ export default function ChatScreen({navigation}) {
             });
     }, []);
 
+    function randomURI(){
+        let rand1 = 100+Math.floor(Math.random() * 101);
+        return "https://source.unsplash.com/random/"+rand1+"x"+rand1+5;
+    }
 
     return (
         <View style={styles.container}>
@@ -34,14 +38,14 @@ export default function ChatScreen({navigation}) {
                                               title: item.title
                                           })}>
                             <ChatItem
-                                avatar={require('../assets/avtr2.png')}
+                                avatar={{uri:randomURI()}}
                                 alt={item.alt}
                                 title={item.title}
                                 subtitle={item.lastMessage.text}
                                 date={item.lastMessage.createdAt.toDate()}
                                 unread={item.unread}
                                 statusColor={
-                                    item.lastMessage.createdAt.toDate().getTime() > (new Date().getTime() - 60000)
+                                    item.lastMessage.createdAt.toDate().getTime() > (new Date().getTime() - 6000000)
                                         ? 'green'
                                         : 'red'
                                 }/>
@@ -79,7 +83,7 @@ const styles = StyleSheet.create({
         bottom: 30,
         right: 25,
         height:60 ,
-        backgroundColor: '#000',
+        backgroundColor: '#3f3d56',
         borderRadius: 100,
     },
 
