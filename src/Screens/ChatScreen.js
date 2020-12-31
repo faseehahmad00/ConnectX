@@ -9,6 +9,14 @@ export default function ChatScreen({navigation}) {
     const [chats, setChat] = useState([]);
 
     useEffect(() => {
+        navigation.setOptions({ headerLeft: () => (
+                <TouchableOpacity style={{flex:1,justifyContent:"center",marginLeft:10}} onPress={() => navigation.openDrawer()}>
+                    <Ionicons name='menu' style={{color:'black',fontSize:24}}/>
+                </TouchableOpacity>
+            ),})
+    }, []);
+    useEffect(() => {
+        navigation.setOptions({title:"CHATS"})
         return db
             .collection('chats')
             // todo: set userid
@@ -33,7 +41,7 @@ export default function ChatScreen({navigation}) {
                     keyExtractor={item => item.id}
                     renderItem={({item}) => (
                         <TouchableOpacity style={styles.chatitem}
-                                          onPress={() => navigation.navigate('Username', {
+                                          onPress={() => navigation.navigate('Chat', {
                                               chat: item,
                                               title: item.title
                                           })}>

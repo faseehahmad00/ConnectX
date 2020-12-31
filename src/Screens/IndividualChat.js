@@ -1,13 +1,25 @@
 import React, {useState, useCallback, useEffect} from 'react';
-import {StyleSheet, View, Text, TouchableOpacity} from "react-native";
+import {StyleSheet, View, Text, Image,TouchableOpacity} from "react-native";
 import {InputToolbar,Bubble,GiftedChat} from 'react-native-gifted-chat'
 import {db} from '../firebase';
 import {usersStore} from "../usersStore";
 import Ionicons from "@expo/vector-icons";
+import Avatar from "../Components/Avatar";
+
 
 export default function IndividualChat({route, navigation}) {
   const [messages, setMessages] = useState([]);
   const {chat} = route.params;
+
+    useEffect(() => {
+        navigation.setOptions({ headerLeft: () => (
+            <TouchableOpacity  style={{flexDirection:"row",justifyContent:'center',borderRadius:100}} onPress={()=>navigation.goBack()}>
+                    <Image source={require('../assets/left.png')}
+                           style={{marginLeft:2,marginTop:5,height:20,width:50}}/>
+                    <Image style={{height:30,width:30,position:"absolute",left:30,borderRadius:100,}} source={{uri:"https://source.unsplash.com/random/500x200"}}/>
+            </TouchableOpacity>
+                    ),})
+    });
 
     function renderInputToolbar (props) {
             return(

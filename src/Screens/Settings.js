@@ -27,7 +27,7 @@ export default function Settings({navigation}) {
                         <Text style={styles.profiletext}>License</Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.profilecard} >
+                <TouchableOpacity style={styles.profilecard} onPress={()=>navigation.navigate('Login')}>
                     <Ionicons style={styles.img} name="log-out"/>
                     <View style={{flex: 0.7, justifyContent: 'center', alignItems: 'center',}}>
                         <Text style={styles.profiletext}>Log Out</Text>

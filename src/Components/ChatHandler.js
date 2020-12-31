@@ -11,9 +11,10 @@ export default function ChatHandler({ navigation }) {
     return (
 
             <Stack.Navigator initialRouteName="Chats">
-                <Stack.Screen name="Chats" component={ChatScreen} options={{
+                <Stack.Screen name="ChatList" component={ChatScreen} options={{
                     headerStyle: {
                         backgroundColor: '#fff',
+                        borderRadius:10,
                         },
                     headerTintColor: '#000',
                     headerLeft: () => (
@@ -22,15 +23,17 @@ export default function ChatHandler({ navigation }) {
                         </TouchableOpacity>
                     ),
                 }} />
-                <Stack.Screen name="Username" component={IndividualChat}  options={{
+                <Stack.Screen name="Chat" component={IndividualChat}  options={{
                     headerStyle: {
                         backgroundColor: '#fff',
+                        borderRadius:10,
                     },
                     headerTintColor: '#000',
                 }}/>
                 <Stack.Screen name="NewMessage" component={NewMessage}  options={{
                     headerStyle: {
                         backgroundColor: '#fff',
+                        borderRadius:10,
                     },
                     headerTintColor: '#000',
                 }}/>

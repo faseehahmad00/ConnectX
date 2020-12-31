@@ -16,6 +16,7 @@ export default function SettingManager({navigation}) {
             <Stack.Screen name="Settings" component={Settings} options={{
                 headerStyle: {
                     backgroundColor: '#fff',
+                    borderRadius:10,
                 },
                 headerTintColor: '#000',
                 headerLeft: () => (
@@ -29,18 +30,21 @@ export default function SettingManager({navigation}) {
             <Stack.Screen name="Profile" component={Profile} options={{
                 headerStyle: {
                     backgroundColor: '#fff',
+                    borderRadius:10,
                 },
                 headerTintColor: '#000',
             }}/>
             <Stack.Screen name="License" component={License} options={{
                 headerStyle: {
                     backgroundColor: '#fff',
+                    borderRadius:10,
                 },
                 headerTintColor: '#000',
             }}/>
             <Stack.Screen name="About" component={About} options={{
                 headerStyle: {
                     backgroundColor: '#fff',
+                    borderRadius:10,
                 },
                 headerTintColor: '#000',
             }}/>
