@@ -47,19 +47,25 @@ export default function NewMessgae({navigation}) {
     navigation.navigate('Username', {chat: chat, title: user.name})
   }, []);
 
+  function randomURI(){
+    let rand1 = 100+Math.floor(Math.random() * 101);
+    return "https://source.unsplash.com/random/"+rand1+"x"+rand1+5;
+  }
   return (
       <View style={styles.container}>
-        <StatusBar style='light'/>
+        <StatusBar style='dark'/>
         <View style={styles.body}>
           <FlatList
               data={contacts}
               keyExtractor={item => item.id}
               renderItem={({item}) => (
-                  <TouchableOpacity style={styles.chatitem}
-                                    onPress={() => onStartNewChat(item)}
+                  <TouchableOpacity
+                      activeOpacity={0.9}
+                      style={styles.chatitem}
+                      onPress={() => onStartNewChat(item)}
                   >
                     <ChatItem
-                        avatar={require('../assets/avtr2.png')}
+                        avatar={{uri:randomURI()}}
                         title={item.name}
                         subtitle={item.subtitle}
                     />
