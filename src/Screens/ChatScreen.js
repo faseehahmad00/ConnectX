@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         width: 60,
         position: 'absolute',
-        bottom: 30,
+        bottom: 20,
         right: 25,
         height:60 ,
         backgroundColor: '#3f3d56',
