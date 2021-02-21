@@ -22,7 +22,9 @@ export default function Login ({navigation}) {
                     </View>
                     </View>
             <View style={styles.bottom}>
-                <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('LoginManager')}>
+                <TouchableOpacity 
+                activeOpacity={0.9}
+                style={styles.btn} onPress={()=>navigation.navigate('LoginManager')}>
                     <Ionicons name='logo-google' style={{color:'#6C63FF',fontSize:30}} />
                     <Text style={{color:'white', marginLeft: 15}}>Sign in with Google</Text>
                 </TouchableOpacity>

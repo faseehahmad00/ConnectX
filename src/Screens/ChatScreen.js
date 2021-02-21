@@ -11,13 +11,13 @@ export default function ChatScreen({navigation}) {
 
     useEffect(() => {
         navigation.setOptions({ headerLeft: () => (
-
                 <TouchableOpacity style={{flex:1,justifyContent:"center",marginLeft:10}} onPress={() => navigation.openDrawer()}>
                     <Ionicons name='menu' style={{color:'black',fontSize:24}}/>
                 </TouchableOpacity>
             ),})
     }, []);
     useEffect(() => {
+        alert("To Delete Chat Swipe Left");
         navigation.setOptions({title:"CHATS"})
         return db
             .collection('chats')
@@ -72,7 +72,7 @@ export default function ChatScreen({navigation}) {
                             <TouchableOpacity onPress={()=>deletechat(item.id) }
                                 style={{height:'100%',width:65,alignItems:'center',justifyContent: 'center' }}>
                             <Ionicons name='trash'
-                                      style={{fontSize:30,color:'black'}}/>
+                                      style={{fontSize:30,color:'#ff3333'}}/>
                             </TouchableOpacity>
                         </View>
                     )}

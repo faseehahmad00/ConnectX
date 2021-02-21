@@ -10,10 +10,6 @@ export default function About({navigation}){
                 </Text>
                 <Text style={styles.nametext}>
                     -> Faseeh Ahmad
-
-                </Text>
-                <Text style={styles.nametext}>
-                    -> Abdul Wali
                 </Text>
                 <Text style={styles.text}>
                     Published and distributed under MIT License for public use.

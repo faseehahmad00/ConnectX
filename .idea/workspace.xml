@@ -21,11 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="150aa6c1-609a-4b17-81ea-8eb9564a7dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ChatScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/IndividualChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/IndividualChat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,8 @@
       <workItem from="1609417546040" duration="7794000" />
       <workItem from="1609444369965" duration="3594000" />
       <workItem from="1609511522270" duration="6848000" />
-      <workItem from="1609619969816" duration="3058000" />
+      <workItem from="1609619969816" duration="3237000" />
+      <workItem from="1612036439831" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1607529658804</created>
@@ -349,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609534478091</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="UI fixes and added message delete action sheet.">
+      <created>1609623195232</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1609623195232</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +397,7 @@
     <MESSAGE value="removed unused libraries." />
     <MESSAGE value="UI fixes." />
     <MESSAGE value="UI fixes and added chat delete function." />
-    <option name="LAST_COMMIT_MESSAGE" value="UI fixes and added chat delete function." />
+    <MESSAGE value="UI fixes and added message delete action sheet." />
+    <option name="LAST_COMMIT_MESSAGE" value="UI fixes and added message delete action sheet." />
   </component>
 </project>

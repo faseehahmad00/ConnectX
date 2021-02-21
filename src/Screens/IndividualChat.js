@@ -29,7 +29,7 @@ export default function IndividualChat({route, navigation}) {
             <InputToolbar
                 {...props}
                 containerStyle={{
-                    backgroundColor: "#666",
+                    backgroundColor: "#FFF",
                     marginHorizontal: 0, borderTopEndRadius: 15, borderTopStartRadius: 15,
                 }}
             />
