@@ -9,7 +9,7 @@ export default function About({navigation}){
                   ConnectX is an interactive chatting application developed by:
                 </Text>
                 <Text style={styles.nametext}>
-                    => Faseeh Ahmad
+                    +=> Faseeh Ahmad
                 </Text>
                 <Text style={styles.text}>
                     Published and distributed under MIT License for public use.
