@@ -26,9 +26,6 @@ export default function About({navigation}){
                 <Text style={{color:'red',fontSize: 18,marginLeft:10,marginBottom:2,textAlign:"center"}}>
                     Copyright (c) 2020
                 </Text>
-                {/*<Text style={{color:'red',fontSize: 18,marginLeft:10,marginBottom:2,textAlign:"center"}}>*/}
-                {/*    Faseeh Ahmad & Abdul Wali*/}
-                {/*</Text>*/}
             </View>
         </View>
 

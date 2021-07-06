@@ -42,7 +42,7 @@ export default function IndividualChat({route, navigation}) {
                 {...props}
                 wrapperStyle={{
                     right: {
-                        backgroundColor: '#3f3d56'
+                        backgroundColor: '#444444'
                     },
                     left: {
                         backgroundColor: '#6C63FF'
